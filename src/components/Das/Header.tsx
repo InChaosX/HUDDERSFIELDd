@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import LocalSwitcher from "./local-switcher";
+
 import { LangSelector } from '../LangSelector'
 import { Link } from "react-scroll";
 import { T, useTranslate } from "@tolgee/react";
