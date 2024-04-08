@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* background-color: green; */
+}
+
+html {
+
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
+.st {
+  left: 50%;
+}
+
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
+.ghy {
+  clip-path: polygon(0 0, 50% 18%, 100% 0, 100% 100%, 0 92%, 0 0);
+}
+
+.mnb {
+  clip-path: polygon(50% 0%, 100% 0, 100% 89%, 0 100%, 0 0);
+}
+
+
+.imf {
+  background-image: url(/HUDDRS-HERO-h.png);
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bgb {
+  clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+.bgf {
+  clip-path: polygon(0 0, 52% 0, 100% 0, 100% 100%, 0 91%, 0 0);
+}
+
+
+.bcd {
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+}
+
+
+.str {
+  clip-path: polygon(100% 11%, 100% 11%, 100% 75%, 100% 100%, 77% 91%, 50% 100%, 23% 91%, 0 100%, 0% 35%, 0 0);
+}
+
+
