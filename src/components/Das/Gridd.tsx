@@ -207,7 +207,7 @@ function Gridd() {
                       // ignoreCancelEvents={true}
                     >
                       <button
-                        className=" block rounded-lg bg-[#245EC5] px-5 py-3 text-sm w-full  font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+                        className=" mt-5  block rounded-lg bg-[#245EC5] px-5 py-3 text-sm w-full  font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
                         type="button"
                       >
     

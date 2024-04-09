@@ -1,9 +1,9 @@
 import { getTranslate } from '@/tolgee/server';
-import { Todos } from './Todos';
-import { Link } from '@/navigation';
+// import { Todos } from './Todos';
+// import { Link } from '@/navigation';
 
-import { Navbar } from '@/components/Navbar';
-import Hero from '@/components/Das/Hero';
+// import { Navbar } from '@/components/Navbar';
+// import Hero from '@/components/Das/Hero';
 import Bourse from '@/components/Das/Bourse';
 import Video from '@/components/Das/Video';
 import Accroding from '@/components/Das/Accroding';
@@ -13,7 +13,7 @@ import Grid from '@/components/Das/Grid';
 import Contact from '@/components/Das/Contact';
 import Test from '@/components/Das/Test';
 import Asd from '@/components/Das/Asd';
-import Header from '@/components/Das/Header';
+// import Header from '@/components/Das/Header';
 import Heroo from '@/components/Heroo';
 
 export default async function IndexPage() {

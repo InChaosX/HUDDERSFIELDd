@@ -21,12 +21,12 @@ function Grid() {
             </div>
           </div>
 
-          <div className="relative flex items-center bg-white md:shadow-xl shadow-none">
+          <div className="relative flex items-center bg-white  shadow-xl mb-20">
             <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 bg-[#F7F809]"></span>
 
             <div className="">
-              <div className="md:h-[20rem] h-[45rem] rounded-lg white md:-mb-0 -mb-10  ">
-                <div className="lg:max-w-lg mt-0 md:ml-16 ml-4">
+              <div className="md:h-[20rem] h-[45rem] rounded-lg white md:mb-16 -mb-10  ">
+                <div className="lg:max-w-lg  md:ml-16 ml-4">
                   <h1 className="md:text-2xl text-xl font-semibold tracking-wide text-gray-800   ">
                     {/* Les Avantages du Programme ? */}
                     {t("2ts")}
@@ -156,10 +156,10 @@ function Grid() {
                       // ignoreCancelEvents={true}
                     >
                       <button
-                        className=" block rounded-lg bg-[#245EC5] px-5 py-3 text-sm w-full   font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+                        className=" mb-10 mt-5 block rounded-lg bg-[#245EC5] px-5 py-3 text-sm w-full   font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
                         type="button"
                       >
-                       {t("Inscrivez-vous maintenant")} 
+                        {t("Inscrivez-vous maintenant")}
                       </button>
                     </Link>
                   </div>
