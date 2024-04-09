@@ -28,12 +28,18 @@ function Heroo() {
               </p>
             </div>
             <div className="mt-10 flex flex-col items-center md:flex-row">
-              <a
-                href="/"
-                className="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-[#F7F809] px-6 font-medium tracking-wide text-black shadow-md transition duration-200 md:mr-4 md:mb-0 md:w-auto focus:outline-none hover:bg-blue-800"
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={800}
+                // ignoreCancelEvents={true}
               >
-                {t("Inscrivez-vous maintenant")}
-              </a>
+                <div className="mb-3 inline-flex h-12 w-full cursor-pointer items-center justify-center rounded bg-[#F7F809] px-6 font-medium tracking-wide text-black shadow-md transition duration-200 md:mr-4 md:mb-0 md:w-auto focus:outline-none hover:bg-blue-800">
+                  {t("Inscrivez-vous maintenant")}
+                </div>
+              </Link>
               {/* <a
                 href="/"
                 aria-label=""
