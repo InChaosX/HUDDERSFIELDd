@@ -38,7 +38,7 @@ function Header() {
                 // ignoreCancelEvents={true}
               >
                 <button
-                  className="block rounded-lg bg-[#245EC5] px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+                  className="block rounded-lg bg-[#245EC5] w-full px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
                   type="button"
                 >
                   {t("Inscrivez-vous maintenant")}

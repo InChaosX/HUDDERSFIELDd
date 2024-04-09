@@ -16,7 +16,90 @@
 
    "-Démarrez vos études universitaires à Casablanca": "Démarrez vos études universitaires à Casablanca",
     "-Obtenez un Bachelor en Business en Angleterre": "Obtenez un Bachelor en Business en Angleterre",
-    "-Décrochez votre 1er JOB en Angleterre": "Décrochez votre 1er JOB en Angleterre"
+    "-Décrochez votre 1er JOB en Angleterre": "Décrochez votre 1er JOB en Angleterre",
+    
+
+  "ts" :"VOTRE MEILLEUR CHEMIN VERS UNE CARRIERE EN ANGLETERRE.",
+
+ "ts1" : "BA (Hons) en administration et gestion des affaires",
+ "ts2"     : "BA (Hons) en Marketing Global",
+ "ts3" : "BA (Hons) Gestion des affaires de l'hôtellerie",
+ "ts4" : "BA (Hons) Gestion des Ressources Humaines",
+ "ts5" : "BA (Hons) Affaires Internationales",
+ "ts6" : "BA (Hons) Comptabilité d'entreprise",
+ "ts7" : "BA (Hons) Affaires avec Services Financiers",
+ "ts8" : "BA (Hons) Commerce et Investissement",
+
+ "bourse" : "BOURSE DE 50 000 DH",
+ "tb" : " Inscrivez-vous au programme NCUK International à LONDON ACADEMY CASABLANCA",
+   "vtt" : "Étapes vers le Succès ",
+ "vtp1" : "Inscrivez-vous au programme NCUK International à LONDON ACADEMY CASABLANCA",
+     "vtp2" : "Développez des compétences académiques solides dans le domaine de la gestion, et maîtrisez la langue anglaise.",
+     "vtp3" : "Accédez directement à la dernière année de votre diplôme en commerce choisi à l'Université de Huddersfield",
+     "vtp4" : " Obtenez votre diplôme et lancez votre carrière en Angleterre",
+
+
+    "2ts": "Les Avantages du Programme ? ",
+    "2ts1": "Économisez jusqu'à 310 000 MAD sur les frais de scolarité par rapport à des études au Royaume-Uni.",
+    "2ts2": "Étudiez une voie spécialisée garantissant une éducation demandée par le marché du travail.",
+    "2ts3": "Préparez au mieux vos compétences académiques et linguistiques en anglais pour réussir à l'université.",
+    "2ts4": "Terminez vos études avec un diplôme complet de licence (avec mention) de l'Université de Huddersfield.",
+    "2ts5": "Accélérez votre carrière avec un visa de travail post-études de 2 ans au Royaume-Uni après l'obtention de votre diplôme.",
+    "2ts6": "",
+    "2ts7": "",
+    "2ts8": "",
+
+     "test0": "Cheminement abordable vers un diplôme britannique.",
+    "test1": "Développez vos compétences académiques et linguistiques à Casablanca avec NCUK, puis libérez tout votre potentiel avec la dernière année de votre diplôme en commerce choisi à l’Université de Huddersfield.",
+
+    
+
+    "timec1" :"Pre - University",
+    "timec11" :"Année de Fondation Internationale.",
+
+    "timec2" :"Stage 1",
+    "timec22" :"Première Année Internationale",
+
+    "timec3" :"Stage 2",
+    "timec33" :"Deuxième Année internationale",
+
+    "timec4" :"Stage 3",
+    "timec44" :"Diplôme de Dernière Année",
+
+    "timec5" :"DIPLÔMÉ",
+    "timec55" :"",
+
+    "acc0" : " Exigences d'admission",
+    "acc1" : " Développez vos compétences académiques et linguistiques à Casablanca avec NCUK, puis libérez tout votre potentiel avec la dernière année du diplôme en commerce de votre choix à l’Université de Huddersfield.",
+    "acc2" : " BAC marocain, IELTS 5.0 ou équivalent = Accès à l'Année de Fondation Internationale.",
+    "acc3" : "   BAC français, IELTS 5.5 ou équivalent = Accès à l'International Year One.",
+    "acc4" : " L'admission à l'International Year Two nécessite la réussite de l'International Year One. D'autres qualifications de niveau 4 FHEQ peuvent également être utilisées pour l'admission au cas par cas.",
+    "acc5" : " L'accès à la dernière année du diplôme à l'Université de Huddersfield nécessite la réussite de l'International Year Two.",
+
+    "bb" : "",
+
+    "toastMessage": "remplissez tous les champs",
+      "nom": "Entrez votre nom complet s'il vous plaît",
+     "email" : "Veuillez entrer votre email",
+      "phone" : "Veuillez entrer votre numéro de téléphone",
+      "room" : "Choose your option",
+
+      "succes": "Merci, votre soumission a été reçue 🎉",
+      "error" : "Something wrong..check your Internet!",
+      "Nom Complete": "Nom Complete",
+      "Email": "Email",
+      "Numero De Telephone": "Numero De Telephone",
+      "sélectionnez votre choix": "sélectionnez votre choix",
+      "FORMULAIRE DE PRE-INSCRIPTION":"FORMULAIRE DE PRE-INSCRIPTION",
+      "Remplissez le formulaire": "Remplissez le formulaire",
+      "ENVOYER VOTRE CANDIDATURE":"ENVOYER VOTRE CANDIDATURE",
+      "Marocain":" Marocain",
+      "Français": "Français",
+      "Autres"  :"Autres",
+       "topHerotitle": "Commencez vos études à Casablanca et accédez directement à la dernière année à l'Université de Huddersfield au ROYAUME-UNI !"  
+
+
+
 
 
 }

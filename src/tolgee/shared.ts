@@ -4,7 +4,7 @@ import { DevTools, Tolgee } from '@tolgee/web';
 const apiKey = process.env.NEXT_PUBLIC_TOLGEE_API_KEY;
 const apiUrl = process.env.NEXT_PUBLIC_TOLGEE_API_URL;
 
-export const ALL_LOCALES = ['en', 'cs', 'de', 'fr'];
+export const ALL_LOCALES = ['en','fr'];
 
 export const DEFAULT_LOCALE = 'fr';
 

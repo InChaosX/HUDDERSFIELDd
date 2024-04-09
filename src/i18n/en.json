@@ -16,5 +16,95 @@
 
     "-Démarrez vos études universitaires à Casablanca": "Kickstart your university studies in Casablanca.",
     "-Obtenez un Bachelor en Business en Angleterre": "Earn a Business Bachelor's degree in England",
-    "-Décrochez votre 1er JOB en Angleterre": "Land your first job in England"
+    "-Décrochez votre 1er JOB en Angleterre": "Land your first job in England",
+
+
+  "ts" :"YOUR BEST PATHWAY TO A UK DEGREE",
+
+ "ts1" : "BA (Hons) Business Administration and Management",
+ "ts2"     : "BA (Hons) Global Marketing",
+ "ts3" : "BA (Hons) Hospitality Business Management",
+ "ts4" : "BA (Hons) Human Resource Management",
+ "ts5" : "BA (Hons) International Business",
+ "ts6" : "BA (Hons) Business Accounting",
+ "ts7" : "BA (Hons) Business with Financial Services",
+ "ts8" : "BA (Hons) Trade and Investment",
+
+ "bourse" : "50,000 DH SCHOLARSHIP at the University of Huddersfield",
+ "tb" : " Apply to the NCUK International Foundation Year program at LONDON ACADEMY CASABLANCA",
+"vtt" : "Steps to Success ",
+   "vtp1" : "Enrol on the NCUK International Year Two Business Management programme at Casablanca International Study Centre.",
+    
+     "vtp2" : "Gain strong academic, English language, and study skills in the field of business management.",
+          "vtp3" : "Progress directly to the final year of your chosen business degree at the University of Huddersfield.",
+    "vtp4" : "Graduate with a prestigious UK degree and launch your global career.",
+
+    "2ts": "Why study with NCUK in Casablanca?",
+    "2ts1": "Save up to 250,000(MAD) on tuition fees compared to studying in the UK",
+    "2ts2": "Study a specialised pathway ensuring a focused and relevant education",
+    "2ts3": "Better prepare your academic and English language skills for success at university",
+    "2ts4": "Complete your studies with a full BA (Hons) degree from the University of Huddersfield",
+    "2ts5": "Fast-track your career with a 2-year post study work visa in the UK after you graduate.",
+    "2ts6": "",
+    "2ts7": "",
+    "2ts8": "",
+
+
+    "test0": "Affordable Pathway to a UK degree",
+    "test1": "Build your academic and English skills in Casablanca with NCUK, then unlock your full potential with the final year of your chosen business degree at the University of Huddersfield.",
+
+    "timec1" :"Pre - University",
+    "timec11" :"International Foundation Year.",
+
+    "timec2" :"Stage 1",
+    "timec22" :"International Year one",
+
+    "timec3" :"Stage 2",
+    "timec33" :"International Year Two",
+
+    "timec4" :"Stage 3",
+    "timec44" :"Final Year Degree",
+
+    "timec5" :"GRADUATE",
+    "timec55" :"",
+
+
+     "acc0" : " Entry Requirement",
+    "acc1" : "Build your academic and English skills in Casablanca with NCUK, then unlock your full potential with the final year of your chosen business degree at the University of Huddersfield.",
+    "acc2" : " Moroccan BAC, IELTS 5.0 or equivalent = Enter Iternational Foundation Year.",
+    "acc3" : "  French BAC, IELTS 5.5 or equivalent = Enter International Year One.",
+    "acc4" : " Entry onto International Year Two requires successful completion of International Year One. Other FHEQ Level 4 qualifications may also be used for entry on a case-by basis.",
+    "acc5" : " Entry onto final year degree at the University of Huddersfield requires successful completion of International Year Two.",
+
+    "bb" : "",
+
+
+    "toastMessage": "Please fill in all fields",
+      "nom": "Please Enter Your Full Name",
+     "email" : "Please enter your email",
+      "phone" : "Please enter your phone number",
+      "room" : "Please Select your choice",
+
+      "succes": "Thank you , Your submission has been received 🎉",
+      "error" : "Something wrong..check your Internet!",
+      "Nom Complete": "Full Name",
+      "Email": "Email",
+      "Numero De Telephone": "Phone Number",
+      "sélectionnez votre choix": "Select your choice",
+      "FORMULAIRE DE PRE-INSCRIPTION":"PRE-REGISTRATION FORM",
+      "Remplissez le formulaire": "Fill out the form",
+      "ENVOYER VOTRE CANDIDATURE":"Submit",
+      "Marocain":" Moroccan",
+      "Français": "French",
+      "Autres"  :"Other",
+
+      "topHerotitle":"START IN CASABLANCA and get to the FINAL YEAR at the University of Huddersfield IN THE UK !"
+      
+      
+
+
+
+
+
+
 }

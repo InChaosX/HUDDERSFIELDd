@@ -1,8 +1,10 @@
 'use client'
 import React from 'react'
 import { Link } from 'react-scroll';
+import { T, useTranslate } from "@tolgee/react";
 
 function Gridd() {
+   const { t } = useTranslate();
   return (
     <section>
       <div className="mx-auto max-w-screen-1xl px-4 py-28 sm:px-6 lg:px-40 z-99 md:-mb-0 -mb-36">
@@ -24,7 +26,9 @@ function Gridd() {
               <div className="md:h-[20rem] h-[35rem]  rounded-lg white md:-mb-0 -mb-10  ">
                 <div className="lg:max-w-lg mt-0 md:ml-16 ml-4">
                   <h1 className="md:text-2xl text-xl font-semibold tracking-wide text-gray-800   ">
-                    VOTRE MEILLEUR CHEMIN VERS UNE CARRIERE EN ANGLETERRE.
+                    {t(
+                      "ts"
+                    )}
                   </h1>
 
                   <div className="mt-2 space-y-4">
@@ -45,7 +49,9 @@ function Gridd() {
                       </svg>
 
                       <span className="md:mx-2 mx-0">
-                        BA (Hons) en administration et gestion des affaires
+                        {t(
+                          "ts1"
+                        )}
                       </span>
                     </p>
 
@@ -66,7 +72,7 @@ function Gridd() {
                       </svg>
 
                       <span className="mx-2">
-                        BA (Hons) en Marketing Global
+                        {t("ts2")}
                       </span>
                     </p>
 
@@ -87,7 +93,7 @@ function Gridd() {
                       </svg>
 
                       <span className="mx-2">
-                        BA (Hons) Gestion des affaires de l'hôtellerie
+                        {t("ts3")}
                       </span>
                     </p>
 
@@ -108,7 +114,7 @@ function Gridd() {
                       </svg>
 
                       <span className="mx-2">
-                        BA (Hons) Gestion des Ressources Humaines
+                        {t("ts4")}
                       </span>
                     </p>
                     <p className="flex items-center -mx-2 text-black ">
@@ -128,7 +134,7 @@ function Gridd() {
                       </svg>
 
                       <span className="mx-2">
-                        BA (Hons) Affaires Internationales
+                        {t("ts5")}
                       </span>
                     </p>
                     <p className="flex items-center -mx-2 text-black ">
@@ -149,7 +155,7 @@ function Gridd() {
 
                       <span className="mx-2">
                         {" "}
-                        BA (Hons) Comptabilité d'entreprise
+                        {t("ts6")}
                       </span>
                     </p>
                     <p className="flex items-center -mx-2 text-black ">
@@ -169,7 +175,7 @@ function Gridd() {
                       </svg>
 
                       <span className="mx-2">
-                        BA (Hons) Affaires avec Services Financiers
+                        {t("ts7")}
                       </span>
                     </p>
                     <p className="flex items-center -mx-2 text-black ">
@@ -189,7 +195,7 @@ function Gridd() {
                       </svg>
 
                       <span className="mx-2">
-                        BA (Hons) Commerce et Investissement
+                        {t("ts8")}
                       </span>
                     </p>
                     <Link
@@ -204,7 +210,8 @@ function Gridd() {
                         className=" block rounded-lg bg-[#245EC5] px-5 py-3 text-sm w-full  font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
                         type="button"
                       >
-                        Inscrivez-vous maintenant
+    
+                        {t("Inscrivez-vous maintenant")}
                       </button>
                     </Link>
                   </div>

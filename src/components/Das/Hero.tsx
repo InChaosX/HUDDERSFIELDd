@@ -55,7 +55,7 @@ function Hero() {
               className=" mt-10 md:w-[400px] w-[300px] rounded-lg bg-[#F7F809] px-5 py-3 text-sm font-medium text-black transition hover:bg-indigo-700 focus:outline-none focus:ring"
               type="button"
             >
-              Inscrivez-vous maintenantt
+              {t("Inscrivez-vous maintenant")}
             </button>
           </Link>
         </div>

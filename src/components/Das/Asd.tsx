@@ -1,6 +1,9 @@
+"use client"
 import React from 'react'
+import { T, useTranslate } from "@tolgee/react";
 
 function Asd() {
+  const { t } = useTranslate();
   return (
     <section className="bg-white md:px-96 px-4 py-32 -mb-28 md:-mb-0 ">
       <div className="space-y-8 relative before:absolute  before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
@@ -18,13 +21,17 @@ function Asd() {
 
           <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow">
             <div className="flex items-center justify-between space-x-2 mb-1">
-              <div className="font-bold text-slate-900"> Pré-Universitaire</div>
+              <div className="font-bold text-slate-900">
+                {/* Pré-Universitaire */}
+                {t("timec1")}
+              </div>
               {/* <time className="font-caveat font-medium text-indigo-500">
                 08/06/2023
               </time> */}
             </div>
             <div className="text-slate-500">
-              Année de Fondation Internationale
+              {/* Année de Fondation Internationale */}
+              {t("timec11")}
             </div>
             <img className="h-auto max-w-44" src="/NCUK-LOGO.png" />
           </div>
@@ -58,13 +65,19 @@ function Asd() {
 
           <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow">
             <div className="flex items-center justify-between space-x-2 mb-1">
-              <div className="font-bold text-slate-900">Stage 1</div>
+              <div className="font-bold text-slate-900">
+                {/* Stage 1 */}
+                {t("timec2")}
+              </div>
               {/* <time className="font-caveat font-medium text-indigo-500">
                 09/06/2023
               </time> */}
             </div>
 
-            <div className="text-slate-500">Première Année Internationale</div>
+            <div className="text-slate-500">
+              {/* Première Année Internationale */}
+              {t("timec22")}
+            </div>
             <img className="h-auto max-w-44" src="/NCUK-LOGO.png" />
           </div>
         </div>
@@ -86,13 +99,19 @@ function Asd() {
 
           <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow">
             <div className="flex items-center justify-between space-x-2 mb-1">
-              <div className="font-bold text-slate-900"> Stage 2</div>
+              <div className="font-bold text-slate-900">
+                {/* Stage 2 */}
+                {t("timec3")}
+              </div>
               {/* <time className="font-caveat font-medium text-indigo-500">
                 10/06/2023
               </time> */}
             </div>
 
-            <div className="text-slate-500">Deuxième Année internationale</div>
+            <div className="text-slate-500">
+              {/* Deuxième Année internationale */}
+              {t("timec33")}
+            </div>
             <img className="h-auto max-w-44" src="/NCUK-LOGO.png" />
           </div>
         </div>
@@ -114,13 +133,19 @@ function Asd() {
 
           <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow">
             <div className="flex items-center justify-between space-x-2 mb-1">
-              <div className="font-bold text-slate-900">Stage 3</div>
+              <div className="font-bold text-slate-900">
+                {/* Stage 3 */}
+                {t("timec4")}
+              </div>
               {/* <time className="font-caveat font-medium text-indigo-500">
                 12/06/2023
               </time> */}
             </div>
 
-            <div className="text-slate-500">Diplôme de Dernière Année</div>
+            <div className="text-slate-500">
+              {/* Diplôme de Dernière Année */}
+              {t("timec44")}
+            </div>
             <img className="h-auto max-w-44" src="/huddersfield-logo.png" />
           </div>
         </div>
@@ -142,7 +167,10 @@ function Asd() {
 
           <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow">
             <div className="flex items-center justify-between space-x-2 mb-1">
-              <div className="font-bold text-slate-900"> DIPLÔMÉ</div>
+              <div className="font-bold text-slate-900">
+                {/* DIPLÔMÉ */}
+                {t("timec5")}
+              </div>
               {/* <time className="font-caveat font-medium text-amber-500">
                 Exp. 12/08/2023
               </time> */}

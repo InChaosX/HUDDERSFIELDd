@@ -1,18 +1,22 @@
 'use client'
 import React from 'react'
 import { Link } from 'react-scroll';
+import { T, useTranslate } from "@tolgee/react";
 
 function Test() {
+  const { t } = useTranslate();
   return (
     <section className=" w-full  imf mnb md:-mb-0 -mb-20">
       <div className="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-16 lg:px-12">
         <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-white">
-          Cheminement abordable vers un diplôme britannique.
+          {/* Cheminement abordable vers un diplôme britannique. */}
+          {t("test0")}
         </h1>
         <p className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-white">
-          Développez vos compétences académiques et linguistiques à Casablanca
+          {/* Développez vos compétences académiques et linguistiques à Casablanca
           avec NCUK, puis libérez tout votre potentiel avec la dernière année de
-          votre diplôme en commerce choisi à l’Université de Huddersfield.
+          votre diplôme en commerce choisi à l’Université de Huddersfield. */}
+          {t("test1")}
         </p>
 
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
@@ -24,11 +28,8 @@ function Test() {
             duration={800}
             // ignoreCancelEvents={true}
           >
-            <button
-             
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center bg-blue-gray-400 text-black rounded-lg border border-gray-300 bg-[#F7F809] focus:ring-4 focus:ring-gray-100  dark:focus:ring-gray-800"
-            >
-              Inscrivez-vous maintenant
+            <button className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center bg-blue-gray-400 text-black rounded-lg border border-gray-300 bg-[#F7F809] focus:ring-4 focus:ring-gray-100  dark:focus:ring-gray-800">
+              {t("Inscrivez-vous maintenant")}
               <svg
                 fill="#000000"
                 //   height="800px"

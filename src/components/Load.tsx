@@ -1,10 +1,15 @@
 import React from 'react'
+import Loadd from './icon/Loadd';
 
 function Load() {
   return (
-   <section className='bg-slate-200 h-screen w-full'>
+   <section className=' flex items-center justify-centerbg-slate-200 h-screen w-full'>
 
-    <h1 className='text-3xl text-red-500 flex items-center justify-center'>LOADING</h1>
+   <div>
+
+    <Loadd/>
+
+   </div>
 
    </section>
   )

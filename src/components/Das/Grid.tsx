@@ -1,8 +1,10 @@
 'use client'
 import React from 'react'
 import { Link } from 'react-scroll';
+import { T, useTranslate } from "@tolgee/react";
 
 function Grid() {
+  const { t } = useTranslate();
   return (
     <section>
       <div className="mx-auto max-w-screen-1xl px-4 py-16 sm:px-6 lg:px-40 z-99 mnb md:-mb-0 -mb-28">
@@ -26,7 +28,8 @@ function Grid() {
               <div className="md:h-[20rem] h-[45rem] rounded-lg white md:-mb-0 -mb-10  ">
                 <div className="lg:max-w-lg mt-0 md:ml-16 ml-4">
                   <h1 className="md:text-2xl text-xl font-semibold tracking-wide text-gray-800   ">
-                    Les Avantages du Programme ?
+                    {/* Les Avantages du Programme ? */}
+                    {t("2ts")}
                   </h1>
 
                   <div className="mt-2 space-y-8">
@@ -47,8 +50,9 @@ function Grid() {
                       </svg>
 
                       <span className="md:mx-2 mx-0">
-                        Économisez jusqu'à 310 000 MAD sur les frais de
-                        scolarité par rapport à des études au Royaume-Uni.
+                        {/* Économisez jusqu'à 310 000 MAD sur les frais de
+                        scolarité par rapport à des études au Royaume-Uni. */}
+                        {t("2ts1")}
                       </span>
                     </p>
 
@@ -69,8 +73,9 @@ function Grid() {
                       </svg>
 
                       <span className="mx-2">
-                        Étudiez une voie spécialisée garantissant une éducation
-                        demandée par le marché du travail.
+                        {/* Étudiez une voie spécialisée garantissant une éducation
+                        demandée par le marché du travail. */}
+                        {t("2ts2")}
                       </span>
                     </p>
 
@@ -91,8 +96,9 @@ function Grid() {
                       </svg>
 
                       <span className="mx-2">
-                        Préparez au mieux vos compétences académiques et
-                        linguistiques en anglais pour réussir à l'université.
+                        {/* Préparez au mieux vos compétences académiques et
+                            linguistiques en anglais pour réussir à l'université. */}
+                        {t("2ts3")}
                       </span>
                     </p>
 
@@ -113,8 +119,9 @@ function Grid() {
                       </svg>
 
                       <span className="mx-2">
-                        Terminez vos études avec un diplôme complet de licence
-                        (avec mention) de l'Université de Huddersfield.
+                        {/* Terminez vos études avec un diplôme complet de licence
+                        (avec mention) de l'Université de Huddersfield. */}
+                        {t("2ts4")}
                       </span>
                     </p>
                     <p className="flex items-center -mx-2 text-black ">
@@ -134,9 +141,10 @@ function Grid() {
                       </svg>
 
                       <span className="mx-2">
-                        Accélérez votre carrière avec un visa de travail
+                        {/* Accélérez votre carrière avec un visa de travail
                         post-études de 2 ans au Royaume-Uni après l'obtention de
-                        votre diplôme.
+                        votre diplôme. */}
+                        {t("2ts5")}
                       </span>
                     </p>
                     <Link
@@ -151,7 +159,7 @@ function Grid() {
                         className=" block rounded-lg bg-[#245EC5] px-5 py-3 text-sm w-full   font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
                         type="button"
                       >
-                        Inscrivez-vous maintenant
+                       {t("Inscrivez-vous maintenant")} 
                       </button>
                     </Link>
                   </div>

@@ -1,16 +1,20 @@
-import React from 'react'
+"use client";
+
+import React from "react";
+import { T, useTranslate } from "@tolgee/react";
 
 function V_timeline() {
+  const { t } = useTranslate();
   return (
     <section className="bg-[#245EC5] py-16 sm:py-16 lg:py-20 xl:py-24  -mt-24  ghy md:-mb-0 -mb-20  ">
       <div className=" w-full ">
         <div className="text-center">
           <h2 className="mt-6 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl md:pt-0 pt-20">
-            Étapes vers le Succès
+            {/* Étapes vers le Succès */}
+            {t("vtt")}
           </h2>
         </div>
         <ul className=" md:pl-24 pl-2 mt-12 grid w-full grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:w-full lg:grid-cols-4 ">
-       
           <li className="flex-start group relative flex lg:flex-col">
             <span
               className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
@@ -28,8 +32,9 @@ function V_timeline() {
             </div>
             <div className="ml-6 lg:ml-0 lg:mt-10">
               <h3 className="text-md font-bold text-white before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                Inscrivez-vous au programme NCUK International à LONDON ACADEMY
-                CASABLANCA
+                {/* Inscrivez-vous au programme NCUK International à LONDON ACADEMY
+                CASABLANCA */}
+                {t("vtp1")}
               </h3>
               {/* <h4 className="mt-2 text-base text-gray-700">
                 Développez des compétences académiques solides dans le domaine
@@ -57,8 +62,9 @@ function V_timeline() {
             </div>
             <div className="ml-6 lg:ml-0 lg:mt-10">
               <h3 className="text-md font-bold text-white before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                Développez des compétences académiques solides dans le domaine
-                de la gestion, et maîtrisez la langue anglaise
+                {/* Développez des compétences académiques solides dans le domaine
+                de la gestion, et maîtrisez la langue anglaise */}
+                {t("vtp2")}
               </h3>
               {/* <h4 className="mt-2 text-base text-gray-700">
                 Développez des compétences académiques solides dans le domaine
@@ -86,8 +92,9 @@ function V_timeline() {
             </div>
             <div className="ml-6 lg:ml-0 lg:mt-10">
               <h3 className="text-md font-bold text-white before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                Accédez directement à la dernière année de votre diplôme en
-                commerce choisi à l'Université de Huddersfield
+                {/* Accédez directement à la dernière année de votre diplôme en
+                commerce choisi à l'Université de Huddersfield */}
+                {t("vtp3")}
               </h3>
               {/* <h4 className="mt-2 text-base text-gray-700">
                 Choose a domain or a subdomain for your blog.
@@ -110,7 +117,8 @@ function V_timeline() {
             </div>
             <div className="ml-6 lg:ml-0 lg:mt-10">
               <h3 className="text-md font-bold text-white before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                Obtenez votre diplôme et lancez votre carrière en Angleterre
+                {/* Obtenez votre diplôme et lancez votre carrière en Angleterre */}
+                {t("vtp4")}
               </h3>
               {/* <h4 className="mt-2 text-base text-gray-700">
                 That's it. You will get back a professional blog.
