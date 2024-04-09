@@ -1,4 +1,5 @@
 import React from 'react'
+import { LangSelector } from '../LangSelector';
 
 function Footer() {
   return (
@@ -72,6 +73,14 @@ function Footer() {
               website: ncukcasablanca.com
             </p>
           </div>
+          <button
+            className="  flex items-center justify-center md:mx-0 mx-auto gap-1.5 px-5 py-3 text-black transition  hover:text-gray-700 focus:outline-none focus:ring "
+            type="button"
+          >
+            {/* <LocalSwitcher /> */}
+            <LangSelector />
+          </button>
+
           <div className=" mt-3 md:text-left text-center">
             Copyright &copy; 2022. All rights reserved.
           </div>
