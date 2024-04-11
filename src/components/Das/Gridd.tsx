@@ -25,9 +25,9 @@ function Gridd() {
           <div className="relative flex items-center  shadow-xl py-10 md:mb-0 mb-8">
             <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 bg-[#F7F809] my-7 shadow-xl "></span>
 
-            <div className="bg-white">
+            <div className="bg-white h-full">
               <div
-                className="md:h-[20rem] h-[35rem]  rounded-lg white md:-mb-0 -mb-10  "
+                className="md:h-[20rem] h-[35rem]  rounded-lg white md:-mb-0 -mb-10 pt-10"
                 data-aos="flip-up"
               >
                 <div className="lg:max-w-lg mt-0 md:ml-16 ml-4">

@@ -15,6 +15,8 @@ import Test from '@/components/Das/Test';
 import Asd from '@/components/Das/Asd';
 // import Header from '@/components/Das/Header';
 import Heroo from '@/components/Heroo';
+import Dfr from '@/components/Das/Dfr';
+import Finaly from '@/components/Das/Finaly';
 // import Imat from '@/components/Imat';
 
 export default async function IndexPage() {
@@ -26,6 +28,8 @@ export default async function IndexPage() {
         {/* <Hero /> */}
         <Heroo/>
         {/* <Imat/> */}
+        {/* <Dfr/>
+        <Finaly/> */}
         <Gridd />
         <Bourse />
         <Video />

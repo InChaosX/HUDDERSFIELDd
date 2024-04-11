@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 
 import { T, useTranslate } from "@tolgee/react";
 import { Link } from "react-scroll";
-import { motion } from "framer-motion";
+
  import AOS from "aos";
  import "aos/dist/aos.css";
 
@@ -48,7 +48,16 @@ function Heroo() {
         <div className="flex flex-col items-center justify-between lg:flex-row">
           <div className="">
             <div className="lg:max-w-xl lg:pr-5">
-              <h2 className="mb-6 max-w-lg text-1xl font-semibold leading-snug tracking-wide  text-blue-600 sm:text-2xl">
+              <h2
+                className="mb-6 max-w-lg text-1xl font-semibold leading-snug tracking-wide  text-blue-600 sm:text-2xl"
+                data-aos="slide-down"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+                data-aos-anchor-placement="center"
+                data-aos-once="false"
+              >
                 {t("-Démarrez vos études universitaires à Casablanca")}
                 <br />
                 <br />
@@ -74,7 +83,13 @@ function Heroo() {
                 // ignoreCancelEvents={true}
               >
                 <div
-                  data-aos="fade-in"
+                  data-aos="slide-right"
+                  data-aos-offset="200"
+                  data-aos-delay="50"
+                  data-aos-duration="800"
+                  data-aos-easing="ease-in-out"
+                  data-aos-anchor-placement="buttom"
+                  data-aos-once="false"
                   className="md:mb-0 mb-7 inline-flex h-12 w-full cursor-pointer items-center justify-center rounded bg-[#F7F809] px-6 font-medium tracking-wide text-black shadow-md transition duration-200 md:mr-4  md:w-auto focus:outline-none hover:bg-blue-800"
                 >
                   {t("Inscrivez-vous maintenant")}
