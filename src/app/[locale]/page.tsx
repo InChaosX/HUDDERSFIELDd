@@ -15,6 +15,7 @@ import Test from '@/components/Das/Test';
 import Asd from '@/components/Das/Asd';
 // import Header from '@/components/Das/Header';
 import Heroo from '@/components/Heroo';
+// import Imat from '@/components/Imat';
 
 export default async function IndexPage() {
   const t = await getTranslate();
@@ -24,6 +25,7 @@ export default async function IndexPage() {
        
         {/* <Hero /> */}
         <Heroo/>
+        {/* <Imat/> */}
         <Gridd />
         <Bourse />
         <Video />

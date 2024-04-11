@@ -1,10 +1,46 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 
 import { T, useTranslate } from "@tolgee/react";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
+ import AOS from "aos";
+ import "aos/dist/aos.css";
+
 
 function Heroo() {
+
+  // You can also use <link> for styles
+// ..
+
+// import  {fadeIn} from '../components/variants'
+
+ 
+  useEffect(()=>{
+   AOS.init({
+     // Global settings:
+     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+     startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+     initClassName: "aos-init", // class applied after initialization
+     animatedClassName: "aos-animate", // class applied on animation
+     useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+     disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+     debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+     throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+     // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+     offset: 120, // offset (in px) from the original trigger point
+     delay: 0, // values from 0 to 3000, with step 50ms
+     duration: 400, // values from 0 to 3000, with step 50ms
+     easing: "ease", // default easing for AOS animations
+     once: false, // whether animation should happen only once - while scrolling down
+     mirror: false, // whether elements should animate out while scrolling past them
+     anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+   });
+  },[]);
+
+
+
   const { t } = useTranslate();
   return (
     <div className="md:-mb-20 -mb-0">
@@ -27,6 +63,7 @@ function Heroo() {
                 {t("topHerotitle")}
               </p>
             </div>
+
             <div className="mt-10 flex flex-col items-center md:flex-row">
               <Link
                 to="contact"
@@ -36,13 +73,14 @@ function Heroo() {
                 duration={800}
                 // ignoreCancelEvents={true}
               >
-                <div className="md:mb-0 mb-7 inline-flex h-12 w-full cursor-pointer items-center justify-center rounded bg-[#F7F809] px-6 font-medium tracking-wide text-black shadow-md transition duration-200 md:mr-4  md:w-auto focus:outline-none hover:bg-blue-800">
+                <div
+                  data-aos="fade-in"
+                  className="md:mb-0 mb-7 inline-flex h-12 w-full cursor-pointer items-center justify-center rounded bg-[#F7F809] px-6 font-medium tracking-wide text-black shadow-md transition duration-200 md:mr-4  md:w-auto focus:outline-none hover:bg-blue-800"
+                >
                   {t("Inscrivez-vous maintenant")}
                 </div>
               </Link>
-             
             </div>
-           
           </div>
           <div className="relative  lg:ml-32  md:w-1/3 lg:w-1/2">
             <svg
@@ -60,7 +98,6 @@ function Heroo() {
               />
             </svg>
             <div className="w-fit rounded-[6rem] mx-auto overflow-hidden rounded-tl-none rounded-br-none bg-[#F7F809]">
-           
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="absolute md:-left-2 -left-0 top-16  md:-top-20 h-28 w-28 rounded-xl bg-white text-blue-400"

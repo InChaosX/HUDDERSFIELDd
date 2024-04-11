@@ -8,18 +8,42 @@ function Test() {
   return (
     <section className=" w-full  imf mnb md:-mb-0 -mb-20">
       <div className="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-16 lg:px-12">
-        <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-white">
+        <h1
+          className="mb-4 text-2xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-white"
+          data-aos="slide-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          data-aos-anchor-placement="center"
+        >
           {/* Cheminement abordable vers un diplôme britannique. */}
           {t("test0")}
         </h1>
-        <p className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-white">
+        <p
+          className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-white"
+          data-aos="slide-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          data-aos-anchor-placement="center"
+        >
           {/* Développez vos compétences académiques et linguistiques à Casablanca
           avec NCUK, puis libérez tout votre potentiel avec la dernière année de
           votre diplôme en commerce choisi à l’Université de Huddersfield. */}
           {t("test1")}
         </p>
 
-        <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+        <div
+          className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 overflow-hidden"
+          data-aos="slide-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          data-aos-anchor-placement="center"
+        >
           <Link
             to="contact"
             spy={true}

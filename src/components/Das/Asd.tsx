@@ -19,7 +19,15 @@ function Asd() {
             </svg>
           </div>
 
-          <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow">
+          <div
+            className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow"
+            data-aos="slide-right"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-anchor-placement="center"
+          >
             <div className="flex items-center justify-between space-x-2 mb-1">
               <div className="font-bold text-slate-900">
                 {/* Pré-Universitaire */}
@@ -63,7 +71,15 @@ function Asd() {
             </svg>
           </div>
 
-          <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow">
+          <div
+            className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow"
+            data-aos="slide-left"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-anchor-placement="center"
+          >
             <div className="flex items-center justify-between space-x-2 mb-1">
               <div className="font-bold text-slate-900">
                 {/* Stage 1 */}
@@ -97,7 +113,15 @@ function Asd() {
             </svg>
           </div>
 
-          <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow">
+          <div
+            className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow"
+            data-aos="slide-right"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-anchor-placement="center"
+          >
             <div className="flex items-center justify-between space-x-2 mb-1">
               <div className="font-bold text-slate-900">
                 {/* Stage 2 */}
@@ -131,7 +155,15 @@ function Asd() {
             </svg>
           </div>
 
-          <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow">
+          <div
+            className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow"
+            data-aos="slide-left"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-anchor-placement="center"
+          >
             <div className="flex items-center justify-between space-x-2 mb-1">
               <div className="font-bold text-slate-900">
                 {/* Stage 3 */}
@@ -165,7 +197,15 @@ function Asd() {
             </svg>
           </div>
 
-          <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow">
+          <div
+            className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-[#245EC5] shadow"
+            data-aos="slide-right"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-anchor-placement="center"
+          >
             <div className="flex items-center justify-between space-x-2 mb-1">
               <div className="font-bold text-slate-900">
                 {/* DIPLÔMÉ */}

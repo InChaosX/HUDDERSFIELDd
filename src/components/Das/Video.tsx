@@ -13,7 +13,17 @@ function Video() {
         // clipPath: "polygon(0 1%, 100% 0, 100% 80%, 48% 100%, 0 80%, 0 43%)",
       }}
     >
-      <div className="flex items-center justify-center ">
+      <div
+        className="flex items-center justify-center "
+        data-aos="slide-down"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+        // data-aos-mirror="true"
+        // data-aos-once="false"
+        data-aos-anchor-placement="center"
+      >
         {/* <iframe
           className="w-[900px] h-[600px]  "
          

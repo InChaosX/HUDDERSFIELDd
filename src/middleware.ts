@@ -5,7 +5,7 @@ import { ALL_LOCALES, DEFAULT_LOCALE } from '@/tolgee/shared';
 // https://next-intl-docs.vercel.app/docs/routing/middleware#locale-prefix
 export default createMiddleware({
   locales: ALL_LOCALES,
-  defaultLocale: DEFAULT_LOCALE,
+  defaultLocale: 'fr',
   localePrefix: 'as-needed',
 });
 

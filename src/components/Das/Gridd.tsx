@@ -9,8 +9,11 @@ function Gridd() {
     <section>
       <div className="mx-auto max-w-screen-1xl px-4 py-28 sm:px-6 lg:px-40 z-99 md:-mb-0 -mb-36">
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
-          <div className="relative z-10 bg-yellow-300 mb-56 md:mb-0">
-            <div className="relative h-64 sm:h-80 lg:h-full md:mb-0 mb-9">
+          <div className="relative z-10 bg-white mb-56 md:mb-0">
+            <div
+              data-aos="flip-up"
+              className="relative h-64 sm:h-80 lg:h-full md:mb-0 mb-9"
+            >
               <img
                 alt=""
                 src="/huddersfield-image.jpeg"
@@ -23,12 +26,13 @@ function Gridd() {
             <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 bg-[#F7F809] my-7 shadow-xl "></span>
 
             <div className="bg-white">
-              <div className="md:h-[20rem] h-[35rem]  rounded-lg white md:-mb-0 -mb-10  ">
+              <div
+                className="md:h-[20rem] h-[35rem]  rounded-lg white md:-mb-0 -mb-10  "
+                data-aos="flip-up"
+              >
                 <div className="lg:max-w-lg mt-0 md:ml-16 ml-4">
                   <h1 className="md:text-2xl text-xl font-semibold tracking-wide text-gray-800   ">
-                    {t(
-                      "ts"
-                    )}
+                    {t("ts")}
                   </h1>
 
                   <div className="mt-2 space-y-4">
@@ -48,11 +52,7 @@ function Gridd() {
                         />
                       </svg>
 
-                      <span className="md:mx-2 mx-0">
-                        {t(
-                          "ts1"
-                        )}
-                      </span>
+                      <span className="md:mx-2 mx-0">{t("ts1")}</span>
                     </p>
 
                     <p className="flex items-center -mx-2 text-black ">
@@ -71,9 +71,7 @@ function Gridd() {
                         />
                       </svg>
 
-                      <span className="mx-2">
-                        {t("ts2")}
-                      </span>
+                      <span className="mx-2">{t("ts2")}</span>
                     </p>
 
                     <p className="flex items-center -mx-2 text-black ">
@@ -92,9 +90,7 @@ function Gridd() {
                         />
                       </svg>
 
-                      <span className="mx-2">
-                        {t("ts3")}
-                      </span>
+                      <span className="mx-2">{t("ts3")}</span>
                     </p>
 
                     <p className="flex items-center -mx-2 text-black ">
@@ -113,9 +109,7 @@ function Gridd() {
                         />
                       </svg>
 
-                      <span className="mx-2">
-                        {t("ts4")}
-                      </span>
+                      <span className="mx-2">{t("ts4")}</span>
                     </p>
                     <p className="flex items-center -mx-2 text-black ">
                       <svg
@@ -133,9 +127,7 @@ function Gridd() {
                         />
                       </svg>
 
-                      <span className="mx-2">
-                        {t("ts5")}
-                      </span>
+                      <span className="mx-2">{t("ts5")}</span>
                     </p>
                     <p className="flex items-center -mx-2 text-black ">
                       <svg
@@ -153,10 +145,7 @@ function Gridd() {
                         />
                       </svg>
 
-                      <span className="mx-2">
-                        {" "}
-                        {t("ts6")}
-                      </span>
+                      <span className="mx-2"> {t("ts6")}</span>
                     </p>
                     <p className="flex items-center -mx-2 text-black ">
                       <svg
@@ -174,9 +163,7 @@ function Gridd() {
                         />
                       </svg>
 
-                      <span className="mx-2">
-                        {t("ts7")}
-                      </span>
+                      <span className="mx-2">{t("ts7")}</span>
                     </p>
                     <p className="flex items-center -mx-2 text-black ">
                       <svg
@@ -194,9 +181,7 @@ function Gridd() {
                         />
                       </svg>
 
-                      <span className="mx-2">
-                        {t("ts8")}
-                      </span>
+                      <span className="mx-2">{t("ts8")}</span>
                     </p>
                     <Link
                       to="contact"
@@ -210,7 +195,6 @@ function Gridd() {
                         className=" mt-5  block rounded-lg bg-[#245EC5] px-5 py-3 text-sm w-full  font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
                         type="button"
                       >
-    
                         {t("Inscrivez-vous maintenant")}
                       </button>
                     </Link>

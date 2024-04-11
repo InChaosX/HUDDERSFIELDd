@@ -6,16 +6,46 @@ import { T, useTranslate } from "@tolgee/react";
 function V_timeline() {
   const { t } = useTranslate();
   return (
-    <section className="bg-[#245EC5] py-16 sm:py-16 lg:py-20 xl:py-24  -mt-24  ghy md:-mb-0 -mb-20  ">
+    <section
+      className="bg-[#245EC5] py-16 sm:py-16 lg:py-20 xl:py-24  -mt-24  ghy md:-mb-0 -mb-20 "
+      data-aos="slide-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="200"
+      data-aos-easing="ease-in-out"
+      // data-aos-mirror="true"
+      // data-aos-once="false"
+      data-aos-anchor-placement="center"
+    >
       <div className=" w-full ">
         <div className="text-center">
-          <h2 className="mt-6 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl md:pt-0 pt-20">
+          <h2
+            className="mt-6 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl md:pt-0 pt-20"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
+            // data-aos-once="false"
+            data-aos-anchor-placement="center"
+          >
             {/* Étapes vers le Succès */}
             {t("vtt")}
           </h2>
         </div>
         <ul className=" md:pl-24 pl-2 mt-12 grid w-full grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:w-full lg:grid-cols-4 ">
-          <li className="flex-start group relative flex lg:flex-col">
+          <li
+            className="flex-start group relative flex lg:flex-col"
+            data-aos="slide-down"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="200"
+            data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
+            // data-aos-once="false"
+            data-aos-anchor-placement="center"
+          >
             <span
               className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
               aria-hidden="true"
@@ -42,7 +72,17 @@ function V_timeline() {
               </h4> */}
             </div>
           </li>
-          <li className="flex-start group relative flex lg:flex-col">
+          <li
+            className="flex-start group relative flex lg:flex-col"
+            data-aos="slide-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="200"
+            data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
+            // data-aos-once="false"
+            data-aos-anchor-placement="center"
+          >
             <span
               className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
               aria-hidden="true"
@@ -72,7 +112,17 @@ function V_timeline() {
               </h4> */}
             </div>
           </li>
-          <li className="flex-start group relative flex lg:flex-col">
+          <li
+            className="flex-start group relative flex lg:flex-col"
+            data-aos="slide-down"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="200"
+            data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
+            // data-aos-once="false"
+            data-aos-anchor-placement="center"
+          >
             <span
               className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
               aria-hidden="true"
@@ -101,7 +151,17 @@ function V_timeline() {
               </h4> */}
             </div>
           </li>
-          <li className="flex-start group relative flex lg:flex-col">
+          <li
+            className="flex-start group relative flex lg:flex-col"
+            data-aos="slide-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="200"
+            data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
+            // data-aos-once="false"
+            data-aos-anchor-placement="center"
+          >
             <div className="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-3xl border border-gray-300 bg-gray-500 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900">
               <svg
                 fill="#fff"

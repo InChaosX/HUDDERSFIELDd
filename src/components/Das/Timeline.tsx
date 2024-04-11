@@ -8,7 +8,7 @@ function Timeline() {
           <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border st"></div>
 
           {/* <!-- right timeline --> */}
-          <div className="mb-8 flex justify-center   items-center w-full  right-timeline ">
+          <div className="mb-8 flex justify-center   items-center w-full  right-timeline" >
             <div className="order-1 w-5/12"></div>
             <div className="z-20 flex items-center order-1 md:ml-0 ml-4 bg-[#245EC5] shadow-xl md:w-20 md:h-20 w-10 h-10 rounded-full">
               <svg
