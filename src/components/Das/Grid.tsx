@@ -7,7 +7,16 @@ function Grid() {
   const { t } = useTranslate();
   return (
     <section>
-      <div className="mx-auto max-w-screen-1xl px-4 py-16 sm:px-6 lg:px-40 z-99 mnb md:-mb-0 -mb-28">
+      <div
+        className="mx-auto max-w-screen-1xl px-4 py-16 sm:px-6 lg:px-40 z-99 mnb md:-mb-0 -mb-28"
+        data-aos="flip-left"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-out"
+        data-aos-anchor-placement="center"
+        data-aos-once="false"
+      >
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2  ">
           <div className="lg:hidden py-[5rem]">
             {" "}
@@ -27,13 +36,40 @@ function Grid() {
             <div className="">
               <div className="md:h-[20rem] h-[45rem] rounded-lg white md:mb-16 -mb-10  ">
                 <div className="lg:max-w-lg  md:ml-16 ml-4">
-                  <h1 className="md:text-2xl text-xl font-semibold tracking-wide text-gray-800   ">
+                  <h1
+                    data-aos="slide-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                    data-aos-anchor-placement="center"
+                    data-aos-once="false"
+                    className="md:text-2xl text-xl font-semibold tracking-wide text-gray-800"
+                  >
                     {/* Les Avantages du Programme ? */}
                     {t("2ts")}
                   </h1>
 
-                  <div className="mt-2 space-y-8">
-                    <p className="flex items-center -mx-2  text-black ">
+                  <div
+                    ata-aos="slide-left"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                    data-aos-anchor-placement="center"
+                    data-aos-once="false"
+                    className="mt-2 space-y-8"
+                  >
+                    <p
+                      ata-aos="slide-right"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-anchor-placement="center"
+                      data-aos-once="false"
+                      className="flex items-center -mx-2  text-black "
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-10 h-10 mx-2 text-[#245EC5]"
@@ -56,7 +92,16 @@ function Grid() {
                       </span>
                     </p>
 
-                    <p className="flex items-center -mx-2 text-black ">
+                    <p
+                      ata-aos="slide-left"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-anchor-placement="center"
+                      data-aos-once="false"
+                      className="flex items-center -mx-2 text-black "
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-10 h-10 mx-2 text-[#245EC5]"
@@ -79,7 +124,16 @@ function Grid() {
                       </span>
                     </p>
 
-                    <p className="flex items-center -mx-2 text-black ">
+                    <p
+                      ata-aos="slide-right"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-anchor-placement="center"
+                      data-aos-once="false"
+                      className="flex items-center -mx-2 text-black "
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-10 h-10 mx-2 text-[#245EC5]"
@@ -102,7 +156,16 @@ function Grid() {
                       </span>
                     </p>
 
-                    <p className="flex items-center -mx-2 text-black ">
+                    <p
+                      ata-aos="slide-left"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-anchor-placement="center"
+                      data-aos-once="false"
+                      className="flex items-center -mx-2 text-black "
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-10 h-10 mx-2 text-[#245EC5]"
@@ -124,7 +187,16 @@ function Grid() {
                         {t("2ts4")}
                       </span>
                     </p>
-                    <p className="flex items-center -mx-2 text-black ">
+                    <p
+                      ata-aos="slide-left"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-anchor-placement="center"
+                      data-aos-once="false"
+                      className="flex items-center -mx-2 text-black "
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-11 h-11 mx-2 text-[#245EC5]"
@@ -158,6 +230,13 @@ function Grid() {
                       <button
                         className=" mb-10 mt-5 block rounded-lg bg-[#245EC5] px-5 py-3 text-sm w-full   font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
                         type="button"
+                        ata-aos="slide-up"
+                        data-aos-offset="200"
+                        data-aos-delay="50"
+                        data-aos-duration="800"
+                        data-aos-easing="ease-in-out"
+                        data-aos-anchor-placement="center"
+                        data-aos-once="false"
                       >
                         {t("Inscrivez-vous maintenant")}
                       </button>

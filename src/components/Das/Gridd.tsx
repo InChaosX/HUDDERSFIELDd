@@ -31,12 +31,30 @@ function Gridd() {
                 data-aos="flip-up"
               >
                 <div className="lg:max-w-lg mt-0 md:ml-16 ml-4">
-                  <h1 className="md:text-2xl text-xl font-semibold tracking-wide text-gray-800   ">
+                  <h1
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="800"
+                    data-aos-easing="ease-in-out"
+                    data-aos-anchor-placement="center"
+                    data-aos-once="false"
+                    className="md:text-2xl text-xl font-semibold tracking-wide text-gray-800   "
+                  >
                     {t("ts")}
                   </h1>
 
                   <div className="mt-2 space-y-4">
-                    <p className="flex items-center -mx-2  text-black ">
+                    <p
+                      data-aos="fade-right"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-anchor-placement="center"
+                      data-aos-once="false"
+                      className="flex items-center -mx-2  text-black "
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-6 h-6 mx-2 text-[#245EC5]"
@@ -55,7 +73,16 @@ function Gridd() {
                       <span className="md:mx-2 mx-0">{t("ts1")}</span>
                     </p>
 
-                    <p className="flex items-center -mx-2 text-black ">
+                    <p
+                      data-aos="fade-left"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-anchor-placement="center"
+                      data-aos-once="false"
+                      className="flex items-center -mx-2 text-black "
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-6 h-6 mx-2 text-[#245EC5]"
@@ -74,7 +101,16 @@ function Gridd() {
                       <span className="mx-2">{t("ts2")}</span>
                     </p>
 
-                    <p className="flex items-center -mx-2 text-black ">
+                    <p
+                      data-aos="fade-right"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-anchor-placement="center"
+                      data-aos-once="false"
+                      className="flex items-center -mx-2 text-black "
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-6 h-6 mx-2 text-[#245EC5]"
@@ -93,7 +129,16 @@ function Gridd() {
                       <span className="mx-2">{t("ts3")}</span>
                     </p>
 
-                    <p className="flex items-center -mx-2 text-black ">
+                    <p
+                      data-aos="fade-left"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-anchor-placement="center"
+                      data-aos-once="false"
+                      className="flex items-center -mx-2 text-black "
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-6 h-6 mx-2 text-[#245EC5]"
@@ -111,7 +156,16 @@ function Gridd() {
 
                       <span className="mx-2">{t("ts4")}</span>
                     </p>
-                    <p className="flex items-center -mx-2 text-black ">
+                    <p
+                      data-aos="fade-right"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-anchor-placement="center"
+                      data-aos-once="false"
+                      className="flex items-center -mx-2 text-black "
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-6 h-6 mx-2 text-[#245EC5]"
@@ -129,7 +183,16 @@ function Gridd() {
 
                       <span className="mx-2">{t("ts5")}</span>
                     </p>
-                    <p className="flex items-center -mx-2 text-black ">
+                    <p
+                      data-aos="fade-left"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-anchor-placement="center"
+                      data-aos-once="false"
+                      className="flex items-center -mx-2 text-black "
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-6 h-6 mx-2 text-[#245EC5]"
@@ -147,7 +210,16 @@ function Gridd() {
 
                       <span className="mx-2"> {t("ts6")}</span>
                     </p>
-                    <p className="flex items-center -mx-2 text-black ">
+                    <p
+                      data-aos="fade-right"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-anchor-placement="center"
+                      data-aos-once="false"
+                      className="flex items-center -mx-2 text-black "
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-6 h-6 mx-2 text-[#245EC5]"
@@ -165,7 +237,16 @@ function Gridd() {
 
                       <span className="mx-2">{t("ts7")}</span>
                     </p>
-                    <p className="flex items-center -mx-2 text-black ">
+                    <p
+                      data-aos="fade-left"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="800"
+                      data-aos-easing="ease-in-out"
+                      data-aos-anchor-placement="center"
+                      data-aos-once="false"
+                      className="flex items-center -mx-2 text-black "
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-6 h-6 mx-2 text-[#245EC5]"
@@ -192,6 +273,13 @@ function Gridd() {
                       // ignoreCancelEvents={true}
                     >
                       <button
+                        data-aos="fade-down"
+                        data-aos-offset="200"
+                        data-aos-delay="50"
+                        data-aos-duration="800"
+                        data-aos-easing="ease-in-out"
+                        data-aos-anchor-placement="center"
+                        data-aos-once="false"
                         className=" mt-5  block rounded-lg bg-[#245EC5] px-5 py-3 text-sm w-full  font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
                         type="button"
                       >

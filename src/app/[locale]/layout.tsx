@@ -56,8 +56,12 @@ export default async function LocaleLayout({
       <html lang={locale}>
         <body>
           <TolgeeNextProvider locale={locale} locales={locales}>
+
             <Header />
-            {children}
+            <div className='px-1 overflow-hidden'>
+              {children}
+            </div>
+            
             <ScrollToTopButton />
             <Footer />
           </TolgeeNextProvider>

@@ -1,20 +1,23 @@
-import React from 'react'
+import Image from "next/image";
+import React from "react";
+import Player from "../Player";
 
 function Video() {
+
+  
   return (
     <section
-      className="  py-28   "
+      className="  py-28 flex items-center justify-center   "
       style={{
         backgroundImage: 'url("/rt.jpg")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         filter: "brightness(100%)", // Adjust brightness here
         transition: "filter 0.3s",
-        // clipPath: "polygon(0 1%, 100% 0, 100% 80%, 48% 100%, 0 80%, 0 43%)",
       }}
     >
       <div
-        className="flex items-center justify-center "
+        className="flex items-center justify-center relative"
         data-aos="slide-down"
         data-aos-offset="200"
         data-aos-delay="50"
@@ -24,22 +27,18 @@ function Video() {
         // data-aos-once="false"
         data-aos-anchor-placement="center"
       >
-        {/* <iframe
-          className="w-[900px] h-[600px]  "
-         
-          src="https://www.youtube.com/embed/GxYfPLD1Eb4?si=3ZBhc22w20j-heM1"
-          title="London Academy, NCUK and University of Huddersfield Partnership TV Coverage"
-        
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        ></iframe> */}
-        <iframe
-          className="w-[1500px] h-[600px]  "
-          // width="560"
-          // height="315"
-          src="https://www.youtube.com/embed/GxYfPLD1Eb4?si=zjl0AyRlWY0be8Eh&amp;controls=0"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        ></iframe>
+        <Image
+          width={1500}
+          height={1500}
+          alt="huddersfield"
+          src="/huddersfield-image.jpeg"
+          // className="absolute inset-0 md:h-[700px] md:w-full h-[500px] object-cover"
+          className="w-[100%] h-[600px] object-contain "
+        />
+        <h1 className="text-black absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          Heloo
+        </h1>
+        <Player/>
       </div>
     </section>
   );
