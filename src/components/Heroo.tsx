@@ -45,7 +45,7 @@ function Heroo() {
   return (
     <div className="md:-mb-20 -mb-0 bg-[#245EC5] ht">
       <div className="mx-auto h-full px-4 py-8  sm:max-w-xl md:max-w-full md:px-24 md:py-24 lg:max-w-screen-xl lg:px-8">
-        <div className="flex flex-col items-center justify-between lg:flex-row">
+        <div className="flex flex-col-reverse items-center justify-between lg:flex-row">
           <div className="">
             <div className="lg:max-w-xl lg:pr-5">
               <h2
@@ -153,15 +153,10 @@ function Heroo() {
                 d="M16 17l-4 4m0 0l-4-4m4 4V3"
               />
             </svg>
+
             <div
-              // data-aos="flip-down"
-              // data-aos-offset="200"
-              // data-aos-delay="50"
-              // data-aos-duration="800"
-              // data-aos-easing="ease-in-out"
-              // data-aos-anchor-placement="center"
-              // data-aos-once="false"
-              className="w-fit rounded-[6rem] mx-auto overflow-hidden rounded-tl-none rounded-br-none bg-[#79a7f5] "
+              
+              className="w-fit rounded-[6rem] mx-auto overflow-hidden rounded-tl-none rounded-br-none bg-[#79a7f5] md:-mt-0 -mt-14 md:mb-0 mb-10 "
             >
               <svg
                 data-aos="flip-down"
@@ -192,7 +187,7 @@ function Heroo() {
                 data-aos-anchor-placement="center"
                 data-aos-once="false"
                 xmlns="http://www.w3.org/2000/svg"
-                className="absolute right-0 -bottom-20 h-28 w-28 rounded-xl bg-transparent text-white "
+                className="absolute right-0 md:-bottom-20 -bottom-10 h-28 w-28 rounded-xl bg-transparent text-yellow-300 "
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -216,6 +211,7 @@ function Heroo() {
               />
             </div>
           </div>
+
         </div>
       </div>
     </div>
