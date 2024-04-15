@@ -1,11 +1,11 @@
 'use client';
 
-import Load from '@/components/Load';
+
 import { TolgeeBase } from './shared';
 import { TolgeeProvider, useTolgeeSSR } from '@tolgee/react';
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
-import Loadd from '@/components/icon/Loadd';
+
 
 type Props = {
   locales: any;
@@ -31,7 +31,7 @@ export const TolgeeNextProvider = ({ locale, locales, children }: Props) => {
     <TolgeeProvider
       tolgee={tolgeeSSR}
       options={{ useSuspense: false }}
-      fallback={<Loadd/>}
+      fallback="loading"
     >
       
       {children}
