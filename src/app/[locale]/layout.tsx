@@ -6,6 +6,7 @@ import Head from 'next/head'; // Added import for Head component
 import Header from '@/components/Das/Header';
 import Footer from '@/components/Das/Footer';
 import ScrollToTopButton from '@/components/Das/ScrollToTopButton';
+import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 
 type Props = {
@@ -56,12 +57,12 @@ export default async function LocaleLayout({
       <html lang={locale}>
         <body>
           <TolgeeNextProvider locale={locale} locales={locales}>
-
             <Header />
-            <div className='px-1 overflow-hidden'>
+            <div className="px-1 overflow-hidden">
               {children}
+              <Analytics />
             </div>
-            
+
             <ScrollToTopButton />
             <Footer />
           </TolgeeNextProvider>
