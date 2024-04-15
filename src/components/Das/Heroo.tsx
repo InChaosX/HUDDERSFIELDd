@@ -10,34 +10,9 @@ import { Link } from "react-scroll";
 
 function Heroo() {
 
-  // You can also use <link> for styles
-// ..
-
-// import  {fadeIn} from '../components/variants'
 
  
-  useEffect(()=>{
-   AOS.init({
-     // Global settings:
-     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-     startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
-     initClassName: "aos-init", // class applied after initialization
-     animatedClassName: "aos-animate", // class applied on animation
-     useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-     disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-     debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-     throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
-     // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-     offset: 120, // offset (in px) from the original trigger point
-     delay: 0, // values from 0 to 3000, with step 50ms
-     duration: 400, // values from 0 to 3000, with step 50ms
-     easing: "ease", // default easing for AOS animations
-     once: false, // whether animation should happen only once - while scrolling down
-     mirror: false, // whether elements should animate out while scrolling past them
-     anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
-   });
-  },[]);
 
 
 
@@ -49,16 +24,11 @@ function Heroo() {
           <div className="">
             <div className="lg:max-w-xl lg:pr-5">
               <h2
-                className="mb-6 max-w-lg text-1xl font-semibold leading-snug tracking-wide  text-white sm:text-2xl"
-                // data-aos="slide-down"
-                // data-aos-offset="200"
-                // data-aos-delay="50"
-                // data-aos-duration="800"
-                // data-aos-easing="ease-in-out"
-                // data-aos-anchor-placement="center"
-                // data-aos-once="false"
+                className="mb-6 max-w-lg text-md font-semibold leading-snug tracking-wide  text-black sm:text-1xl"
+              
               >
                 <div
+                  className="bg-white py-2 rounded-3xl p-3 z-20 relative "
                   data-aos="slide-right"
                   data-aos-offset="200"
                   data-aos-delay="50"
@@ -67,12 +37,13 @@ function Heroo() {
                   data-aos-anchor-placement="center"
                   data-aos-once="false"
                 >
-                  {" "}
+                  
                   {t("-Démarrez vos études universitaires à Casablanca")}
                 </div>
                 <br />
 
                 <div
+                  className="bg-white py-2 rounded-3xl p-3 "
                   data-aos="slide-left"
                   data-aos-offset="200"
                   data-aos-delay="50"
@@ -87,26 +58,27 @@ function Heroo() {
                 <br />
 
                 <div
-                  data-aos="slide-right"
-                  data-aos-offset="200"
-                  data-aos-delay="50"
-                  data-aos-duration="800"
-                  data-aos-easing="ease-in-out"
-                  data-aos-anchor-placement="center"
-                  data-aos-once="false"
+                  className="bg-white py-2 rounded-3xl p-3 "
+                  // data-aos="slide-right"
+                  // data-aos-offset="200"
+                  // data-aos-delay="50"
+                  // data-aos-duration="800"
+                  // data-aos-easing="ease-in-out"
+                  // data-aos-anchor-placement="bottom"
+                  // data-aos-once="true"
                 >
                   {t("-Décrochez votre 1er JOB en Angleterre")}
                 </div>
               </h2>
               <p
-                data-aos="slide-up"
-                data-aos-offset="200"
-                data-aos-delay="50"
-                data-aos-duration="800"
-                data-aos-easing="ease-in-out"
-                data-aos-anchor-placement="center"
-                data-aos-once="false"
-                className="text-base text-gray-300 font-bold"
+                // data-aos="slide-up"
+                // data-aos-offset="200"
+                // data-aos-delay="50"
+                // data-aos-duration="800"
+                // data-aos-easing="ease-in-out"
+                // data-aos-anchor-placement="center"
+                // data-aos-once="false"
+                className="text-base text-gray-300 font-bold py-2 p-3"
               >
                 {/* START IN CASABLANCA and get to the FINAL YEAR at the University
                 of Huddersfield IN THE UK ! */}
@@ -154,10 +126,7 @@ function Heroo() {
               />
             </svg>
 
-            <div
-              
-              className="w-fit rounded-[6rem] mx-auto overflow-hidden rounded-tl-none rounded-br-none bg-[#79a7f5] md:-mt-0 -mt-14 md:mb-0 mb-10 "
-            >
+            <div className="w-fit rounded-[6rem] mx-auto overflow-hidden rounded-tl-none rounded-br-none bg-[#79a7f5] md:-mt-0 -mt-14 md:mb-0 mb-10 ">
               <svg
                 data-aos="flip-down"
                 data-aos-offset="200"
@@ -211,7 +180,6 @@ function Heroo() {
               />
             </div>
           </div>
-
         </div>
       </div>
     </div>

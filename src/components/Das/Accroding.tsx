@@ -7,7 +7,7 @@ function Accroding() {
   return (
     <section
       className="md:px-40 px-10 bg-[#245EC5] py-32 str overflow-hidden "
-      data-aos="slide-down"
+      data-aos="slide-left"
       data-aos-offset="200"
       data-aos-delay="50"
       data-aos-duration="800"
@@ -63,26 +63,12 @@ function Accroding() {
             // data-aos-easing="ease-in-out"
             // data-aos-anchor-placement="center"
           >
-            <h2 className="text-lg font-bold text-gray-900">
+            <h2 className="md:text-lg tex-md font-bold text-gray-900">
               {/* BAC marocain, IELTS 5.0 ou équivalent = Accès à l'Année de
               Fondation Internationale. */}
               {t("acc2")}
             </h2>
 
-            {/* <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </span> */}
           </summary>
         </details>
 
@@ -104,7 +90,7 @@ function Accroding() {
             // data-aos-easing="ease-in-out"
             // data-aos-anchor-placement="center"
           >
-            <h2 className="text-lg font-bold text-gray-900">
+            <h2 className="md:text-lg tex-md  font-bold text-gray-900">
               {/* BAC français, IELTS 5.5 ou équivalent = Accès à l'International
               Year One. */}
               {t("acc3")}
@@ -130,7 +116,7 @@ function Accroding() {
             // data-aos-easing="ease-in-out"
             // data-aos-anchor-placement="center"
           >
-            <h2 className="text-lg font-bold text-gray-900 text-center">
+            <h2 className="md:text-lg tex-md  font-bold text-gray-900 text-center">
               {/* L'admission à l'International Year Two nécessite la réussite de
               l'International Year One. D'autres qualifications de niveau 4 FHEQ
               peuvent également être utilisées pour l'admission au cas par cas. */}
@@ -157,7 +143,7 @@ function Accroding() {
             // data-aos-easing="ease-in-out"
             data-aos-anchor-placement="center"
           >
-            <h2 className="text-lg font-bold text-gray-900">
+            <h2 className="md:text-lg tex-md  font-bold text-gray-900">
               {/* L'accès à la dernière année du diplôme à l'Université de
               Huddersfield nécessite la réussite de l'International Year Two. */}
               {t("acc5")}

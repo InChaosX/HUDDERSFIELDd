@@ -71,7 +71,17 @@ function Contact() {
 
 
   return (
-    <section id="contact" className="  bg-white contact">
+    <section
+      id="contact"
+      className="  bg-white contact"
+      style={{
+        backgroundImage: 'url("/rt.jpg")',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        filter: "brightness(100%)", // Adjust brightness here
+        transition: "filter 0.3s",
+      }}
+    >
       {/* <!-- Contact Us --> */}
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="max-w-2xl lg:max-w-5xl mx-auto">

@@ -12,11 +12,11 @@ export const LangSelector: React.FC = () => {
   const router = useRouter();
   const pathname = usePathname();
   const [_, startTransition] = useTransition();
-    const [isClient, setIsClient] = useState(false);
+    // const [isClient, setIsClient] = useState(false);
 
-    useEffect(() => {
-      setIsClient(true);
-    }, []);
+    // useEffect(() => {
+    //   setIsClient(true);
+    // }, []);
  
 
   function onSelectChange(event: ChangeEvent<HTMLSelectElement>) {
@@ -27,7 +27,7 @@ export const LangSelector: React.FC = () => {
   }
   return (
     <select className="lang-selector" onChange={onSelectChange} value={locale}>
-      <option value="en">{isClient && <Flag/>} English</option>
+      <option value="en">   English</option>
       {/* <option value="cs">Česky</option> */}
       <option value="fr">Français</option>
       {/* <option value="de">Deutsch</option> */}

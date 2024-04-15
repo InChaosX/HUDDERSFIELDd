@@ -10,7 +10,7 @@ import { T, useTranslate } from "@tolgee/react";
 function Header() {
   const { t } = useTranslate();
   return (
-    <section className="bg-white  top-0 left-0 right-0 z-10 ">
+    <section className="bg-white  top-0 left-0 right-0 z-10 h-[100px] ">
       <div className="mx-auto max-w-screen-xl px-4 py-4 sm:px-6 sm:py-4 lg:px-8 ">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="md:text-center text-left  ">
@@ -21,11 +21,7 @@ function Header() {
               height={200}
             ></Image>
           </div>
-          {/* 
-          <Link to="contact">
-
-           <h1 className="text-3xl">hhh</h1>
-          </Link> */}
+          
 
           <div className="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
             <div>

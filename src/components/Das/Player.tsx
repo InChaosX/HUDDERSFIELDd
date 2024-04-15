@@ -97,22 +97,23 @@ const Player: React.FC = ({ className }: { className?: string }) => {
         </div>
       </div>
       {/* Modal  */}
-      <div className=" flex items-center justify-center w-full  bg-green-500">
+      <div className=" flex items-center justify-center w-full  bg-transparent">
         <div
           ref={modalbg}
           id="modal-bg"
-          className="w-full h-screen bg-[#c67222] top-0 absolute hidden"
+          className="w-full h-screen bg-transparent top-0 absolute hidden"
         ></div>
         <div
           ref={modalBox}
           id="modal-box"
-          className="sm:w-[900px] sm:min-w-[40vw] min-w-[80vw] min-h-[50vh]  flex-col items-center gap-2 -translate-y-1/2 p-6 bg-[#ffffff00] rounded-lg top-1/2 left-1/2 -translate-x-1/2 absolute hidden"
+          className="sm:w-[1400px]  sm:min-w-[40vw] min-w-[80vw] min-h-[40vh]  flex-col items-center gap-2 -translate-y-1/2 p-6 bg-[#c0afaf00] rounded-lg top-1/2 left-1/2 -translate-x-1/2 absolute hidden"
         >
           <span
             ref={modalbg}
-            className="text-2xl font-medium cursor-pointer pb-2"
+            className="text-2xl font-medium cursor-pointer pb-2 "
           >
             <svg
+            className=""
               width="50px"
               height="50px"
               viewBox="0 0 16 16"
@@ -127,12 +128,14 @@ const Player: React.FC = ({ className }: { className?: string }) => {
             </svg>
           </span>
 
-          <iframe
-            className="md:w-[800px] w-[400px] h-[600px]  "
-            src="https://www.youtube.com/embed/GxYfPLD1Eb4?si=zjl0AyRlWY0be8Eh&amp;controls=0"
-            title="YouTube Player player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          ></iframe>
+          <div className=" flex items-center justify-center">
+            <iframe
+              className="md:w-full  w-[400px] h-[600px]  "
+              src="https://www.youtube.com/embed/GxYfPLD1Eb4?si=zjl0AyRlWY0be8Eh&amp;controls=0"
+              title="YouTube Player player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
+          </div>
           {/* <p className="text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
             consequatur?
@@ -141,7 +144,7 @@ const Player: React.FC = ({ className }: { className?: string }) => {
           <button
             ref={modalClose}
             id="modal-close"
-            className="p-3 mt-4 bg-[#4F46E5] rounded-lg w-full text-white"
+            className="p-3 mt-4 bg-[#4F46E5] rounded-lg w-full text-white mb-20"
           >
             Close
           </button>

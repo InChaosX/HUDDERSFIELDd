@@ -22,15 +22,15 @@ function Gridd() {
             </div>
           </div>
 
-          <div className="relative flex items-center  shadow-xl py-10 md:mb-0 mb-8">
+          <div className="relative flex items-center  shadow-xl h-[700px] md:mb-0 mb-8">
             <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 bg-[#F7F809] my-7 shadow-xl "></span>
 
-            <div className="bg-white h-full">
+            <div className="bg-white md:h-[700px] h-[600px] ">
               <div
-                className="md:h-[20rem] h-[35rem]  rounded-lg white md:-mb-0 -mb-10 pt-10"
-                data-aos="flip-up"
+                className="md:h-[20rem] h-[35rem]  rounded-lg white  "
+                // data-aos="flip-up"
               >
-                <div className="lg:max-w-lg mt-0 md:ml-16 ml-4">
+                <div className="lg:max-w-lg mt-0 md:ml-16 ml-5 ">
                   <h1
                     data-aos="fade-up"
                     data-aos-offset="200"
@@ -39,13 +39,13 @@ function Gridd() {
                     data-aos-easing="ease-in-out"
                     data-aos-anchor-placement="center"
                     data-aos-once="false"
-                    className="md:text-2xl text-xl font-semibold tracking-wide text-gray-800   "
+                    className="md:text-2xl text-xl font-semibold tracking-wide text-gray-800 mt-5 mb-4  "
                   >
                     {t("ts")}
                   </h1>
 
-                  <div className="mt-2 space-y-4">
-                    <p
+                  <div className=" md:text-1xl text-sm space-y-3 mt-4">
+                    <h1
                       data-aos="fade-right"
                       data-aos-offset="200"
                       data-aos-delay="50"
@@ -57,7 +57,7 @@ function Gridd() {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-6 h-6 mx-2 text-[#245EC5]"
+                        className="w-9 h-9 md:w-11 md:h-11   mx-2 text-[#245EC5]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -70,10 +70,11 @@ function Gridd() {
                         />
                       </svg>
 
-                      <span className="md:mx-2 mx-0">{t("ts1")}</span>
-                    </p>
+                      <span className="mx-2">{t("ts1")}</span>
+                    </h1>
 
-                    <p
+
+                    <h1
                       data-aos="fade-left"
                       data-aos-offset="200"
                       data-aos-delay="50"
@@ -85,7 +86,7 @@ function Gridd() {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-6 h-6 mx-2 text-[#245EC5]"
+                        className="w-9 h-9 md:w-11 md:h-11   mx-2 text-[#245EC5]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -99,7 +100,7 @@ function Gridd() {
                       </svg>
 
                       <span className="mx-2">{t("ts2")}</span>
-                    </p>
+                    </h1>
 
                     <p
                       data-aos="fade-right"
@@ -113,7 +114,7 @@ function Gridd() {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-6 h-6 mx-2 text-[#245EC5]"
+                        className="w-9 h-9 md:w-11 md:h-11   mx-2 text-[#245EC5]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -141,7 +142,7 @@ function Gridd() {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-6 h-6 mx-2 text-[#245EC5]"
+                        className="w-9 h-9 md:w-11 md:h-11   mx-2 text-[#245EC5]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -168,7 +169,7 @@ function Gridd() {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-6 h-6 mx-2 text-[#245EC5]"
+                        className="w-9 h-9 md:w-11 md:h-11   mx-2 text-[#245EC5]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -195,7 +196,7 @@ function Gridd() {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-6 h-6 mx-2 text-[#245EC5]"
+                        className="w-9 h-9 md:w-11 md:h-11   mx-2 text-[#245EC5]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -222,7 +223,7 @@ function Gridd() {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-6 h-6 mx-2 text-[#245EC5]"
+                        className="w-9 h-9 md:w-11 md:h-11   mx-2 text-[#245EC5]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -249,7 +250,7 @@ function Gridd() {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-6 h-6 mx-2 text-[#245EC5]"
+                        className="w-9 h-9 md:w-11 md:h-11   mx-2 text-[#245EC5]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"

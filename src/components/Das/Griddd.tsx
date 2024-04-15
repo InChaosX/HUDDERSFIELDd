@@ -3,65 +3,38 @@ import React from 'react'
 import { Link } from 'react-scroll';
 import { T, useTranslate } from "@tolgee/react";
 
-function Grid() {
-  const { t } = useTranslate();
+function Griddd() {
+   const { t } = useTranslate();
   return (
     <section>
-      <div
-        className="mx-auto max-w-screen-1xl px-4 py-16 sm:px-6 lg:px-40 z-99 mnb md:-mb-0 -mb-28"
-        data-aos="flip-left"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="800"
-        data-aos-easing="ease-in-out"
-        data-aos-anchor-placement="center"
-        data-aos-once="false"
-      >
-        <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2  ">
-          <div className="lg:hidden py-[5rem]">
-            {" "}
-            {/* Hide this column on larger screens */}
-            <div className="relative h-[500px] sm:h-80">
-              <img
-                alt=""
-                src="/portrait-satisfied.jpg"
-                className="absolute inset-0 h-full w-full object-cover"
-              />
-            </div>
-          </div>
+      <div className="mx-auto max-w-screen-1xl px-4 py-28 sm:px-6 lg:px-40 z-99 md:-mb-0 -mb-36">
+        <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
+         
+          <div className="relative flex items-center  shadow-xl h-[700px] md:mb-0 mb-8">
+            {/* <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 bg-[#F7F809] my-7 shadow-xl "></span> */}
 
-          <div className="relative flex items-center bg-white  shadow-xl mb-20">
-            <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 bg-[#F7F809]"></span>
-
-            <div className="">
-              <div className="md:h-[20rem] h-[45rem] rounded-lg white md:mb-16 -mb-10  ">
-                <div className="lg:max-w-lg  md:ml-16 ml-4">
+            <div className="bg-white md:h-[700px] h-[600px] ">
+              <div
+                className="md:h-[20rem] h-[35rem]  rounded-lg white  "
+                // data-aos="flip-up"
+              >
+                <div className="lg:max-w-lg mt-0 md:ml-16 ml-5 ">
                   <h1
-                    data-aos="slide-up"
+                    data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="800"
                     data-aos-easing="ease-in-out"
                     data-aos-anchor-placement="center"
                     data-aos-once="false"
-                    className="md:text-2xl text-xl font-semibold tracking-wide text-gray-800"
+                    className="md:text-2xl text-xl font-semibold tracking-wide text-gray-800 mt-9 mb-9  "
                   >
-                    {/* Les Avantages du Programme ? */}
                     {t("2ts")}
                   </h1>
 
-                  <div
-                    ata-aos="slide-left"
-                    data-aos-offset="200"
-                    data-aos-delay="50"
-                    data-aos-duration="800"
-                    data-aos-easing="ease-in-out"
-                    data-aos-anchor-placement="center"
-                    data-aos-once="false"
-                    className="mt-2 space-y-8"
-                  >
-                    <p
-                      ata-aos="slide-right"
+                  <div className=" md:text-1xl text-sm space-y-10 mt-4">
+                    <h1
+                      data-aos="fade-right"
                       data-aos-offset="200"
                       data-aos-delay="50"
                       data-aos-duration="800"
@@ -72,7 +45,7 @@ function Grid() {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-10 h-10 mx-2 text-[#245EC5]"
+                        className="w-9 h-9 md:w-11 md:h-11   mx-2 text-[#245EC5]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -85,15 +58,11 @@ function Grid() {
                         />
                       </svg>
 
-                      <span className="md:mx-2 mx-0">
-                        {/* Économisez jusqu'à 310 000 MAD sur les frais de
-                        scolarité par rapport à des études au Royaume-Uni. */}
-                        {t("2ts1")}
-                      </span>
-                    </p>
+                      <span className="mx-2"> {t("2ts1")}</span>
+                    </h1>
 
-                    <p
-                      ata-aos="slide-left"
+                    <h1
+                      data-aos="fade-left"
                       data-aos-offset="200"
                       data-aos-delay="50"
                       data-aos-duration="800"
@@ -104,7 +73,7 @@ function Grid() {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-10 h-10 mx-2 text-[#245EC5]"
+                        className="w-9 h-9 md:w-11 md:h-11   mx-2 text-[#245EC5]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -117,15 +86,11 @@ function Grid() {
                         />
                       </svg>
 
-                      <span className="mx-2">
-                        {/* Étudiez une voie spécialisée garantissant une éducation
-                        demandée par le marché du travail. */}
-                        {t("2ts2")}
-                      </span>
-                    </p>
+                      <span className="mx-2"> {t("2ts2")}</span>
+                    </h1>
 
                     <p
-                      ata-aos="slide-right"
+                      data-aos="fade-right"
                       data-aos-offset="200"
                       data-aos-delay="50"
                       data-aos-duration="800"
@@ -136,7 +101,7 @@ function Grid() {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-10 h-10 mx-2 text-[#245EC5]"
+                        className="w-9 h-9 md:w-11 md:h-11   mx-2 text-[#245EC5]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -149,15 +114,11 @@ function Grid() {
                         />
                       </svg>
 
-                      <span className="mx-2">
-                        {/* Préparez au mieux vos compétences académiques et
-                            linguistiques en anglais pour réussir à l'université. */}
-                        {t("2ts3")}
-                      </span>
+                      <span className="mx-2"> {t("2ts3")}</span>
                     </p>
 
                     <p
-                      ata-aos="slide-left"
+                      data-aos="fade-left"
                       data-aos-offset="200"
                       data-aos-delay="50"
                       data-aos-duration="800"
@@ -168,7 +129,7 @@ function Grid() {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-10 h-10 mx-2 text-[#245EC5]"
+                        className="w-9 h-9 md:w-11 md:h-11   mx-2 text-[#245EC5]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -181,14 +142,10 @@ function Grid() {
                         />
                       </svg>
 
-                      <span className="mx-2">
-                        {/* Terminez vos études avec un diplôme complet de licence
-                        (avec mention) de l'Université de Huddersfield. */}
-                        {t("2ts4")}
-                      </span>
+                      <span className="mx-2"> {t("2ts4")}</span>
                     </p>
                     <p
-                      ata-aos="slide-left"
+                      data-aos="fade-right"
                       data-aos-offset="200"
                       data-aos-delay="50"
                       data-aos-duration="800"
@@ -199,7 +156,7 @@ function Grid() {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-11 h-11 mx-2 text-[#245EC5]"
+                        className="w-9 h-9 md:w-11 md:h-11   mx-2 text-[#245EC5]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -212,13 +169,11 @@ function Grid() {
                         />
                       </svg>
 
-                      <span className="mx-2">
-                        {/* Accélérez votre carrière avec un visa de travail
-                        post-études de 2 ans au Royaume-Uni après l'obtention de
-                        votre diplôme. */}
-                        {t("2ts5")}
-                      </span>
+                      <span className="mx-2"> {t("2ts5")}</span>
                     </p>
+                  
+                    
+                    
                     <Link
                       to="contact"
                       spy={true}
@@ -228,15 +183,15 @@ function Grid() {
                       // ignoreCancelEvents={true}
                     >
                       <button
-                        className=" mb-10 mt-5 block rounded-lg bg-[#245EC5] px-5 py-3 text-sm w-full   font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
-                        type="button"
-                        ata-aos="slide-up"
+                        data-aos="fade-down"
                         data-aos-offset="200"
                         data-aos-delay="50"
                         data-aos-duration="800"
                         data-aos-easing="ease-in-out"
                         data-aos-anchor-placement="center"
                         data-aos-once="false"
+                        className=" mt-5  block rounded-lg bg-[#245EC5] px-5 py-3 text-sm w-full  font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+                        type="button"
                       >
                         {t("Inscrivez-vous maintenant")}
                       </button>
@@ -247,13 +202,15 @@ function Grid() {
             </div>
           </div>
 
-          {/* //part 2 */}
-          <div className="hidden lg:block lg:py-16">
-            <div className="relative h-64 sm:h-80 lg:h-full">
+          <div className="relative z-10 bg-white mb-56 md:mb-0">
+            <div
+              data-aos="flip-up"
+              className="relative h-64 sm:h-80 lg:h-full md:mb-0 mb-9"
+            >
               <img
                 alt=""
                 src="/portrait-satisfied.jpg"
-                className="absolute inset-0 h-[100%] w-[100%] object-cover"
+                className="absolute inset-0 md:h-[700px] md:w-full h-[500px] object-cover"
               />
             </div>
           </div>
@@ -263,4 +220,4 @@ function Grid() {
   );
 }
 
-export default Grid;
+export default Griddd;

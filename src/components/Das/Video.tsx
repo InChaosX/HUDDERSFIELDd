@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Player from "../Player";
+import Player from "./Player";
 
 function Video() {
 

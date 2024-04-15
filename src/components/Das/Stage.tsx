@@ -2,7 +2,7 @@
 import React from 'react'
 import { T, useTranslate } from "@tolgee/react";
 
-function Asd() {
+function Stage() {
   const { t } = useTranslate();
   return (
     <section className="bg-white md:px-96 px-4 py-32 -mb-28 md:-mb-0 ">
@@ -225,4 +225,4 @@ function Asd() {
   );
 }
 
-export default Asd;
+export default Stage;
