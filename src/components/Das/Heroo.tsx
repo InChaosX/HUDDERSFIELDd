@@ -18,7 +18,7 @@ function Heroo() {
 
   const { t } = useTranslate();
   return (
-    <div className="md:-mb-20 -mb-0 bg-[#245EC5] ht">
+    <div className="md:-mb-20 -mb-0 bg-[#245EC5] z-20 ht">
       <div className="mx-auto h-full px-4 py-8  sm:max-w-xl md:max-w-full md:px-24 md:py-24 lg:max-w-screen-xl lg:px-8">
         <div className="flex flex-col-reverse items-center justify-between lg:flex-row">
           <div className="">
@@ -126,7 +126,7 @@ function Heroo() {
               />
             </svg>
 
-            <div className="w-fit rounded-[6rem] mx-auto overflow-hidden rounded-tl-none rounded-br-none bg-[#79a7f5] md:-mt-0 -mt-14 md:mb-0 mb-10 ">
+            <div className="w-fit rounded-[6rem] mx-auto overflow-hidden rounded-tl-none rounded-br-none bg-[#79a7f5] mt-10 md:mb-0 mb-10 ">
               <svg
                 data-aos="flip-down"
                 data-aos-offset="200"
@@ -136,7 +136,7 @@ function Heroo() {
                 data-aos-anchor-placement="center"
                 data-aos-once="false"
                 xmlns="http://www.w3.org/2000/svg"
-                className="absolute md:-left-2 -left-0 top-16  md:-top-20 h-28 w-28 rounded-xl bg-transparent text-white"
+                className="absolute md:-left-2 -left-0 top-16  md:-top-5 h-28 w-28 rounded-xl bg-transparent text-white"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >

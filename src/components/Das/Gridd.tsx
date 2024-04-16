@@ -17,7 +17,7 @@ function Gridd() {
               <img
                 alt=""
                 src="/huddersfield-image.jpeg"
-                className="absolute inset-0 md:h-[700px] md:w-full h-[500px] object-cover"
+                className="absolute inset-0 md:h-[700px] md:w-full h-[500px] object-cover "
               />
             </div>
           </div>

@@ -22,10 +22,9 @@ export default async function IndexPage() {
         <V_timeline />
         <Griddd />
         <Test />
-        <Stage/>
+        <Stage />
         <Accroding />
         <Contact />
-       
       </div>
     </div>
   );

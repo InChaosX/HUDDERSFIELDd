@@ -88,3 +88,33 @@ background-image: url(/dotee.png);
 }
 
 
+.btn.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+}
+
+#navbar.scrolled .btn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+}
+
+
+
+#svg-spin {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}

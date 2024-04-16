@@ -46,15 +46,17 @@ const Player: React.FC = ({ className }: { className?: string }) => {
           className="text-[10vw] bg-gradient-to-r from-indigo-500 via-purple-500 text-transparent bg-clip-text to-pink-500 font-bold cursor-pointer"
         >
           <svg
+            id="svg-spin"
             className=""
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 64 64"
             width="90px"
             height="90px"
           >
-            <circle cx="32" cy="32" r="28" fill="#ffeb9b" />
+            <circle  cx="32" cy="32" r="28" fill="#ffeb9b" />
             <circle cx="32" cy="32" r="21" fill="#f9dd8f" />
             <path
+            
               fill="#8d6c9f"
               d="M32,6c14.336,0,26,11.664,26,26S46.336,58,32,58S6,46.336,6,32S17.664,6,32,6 M32,4	C16.536,4,4,16.536,4,32s12.536,28,28,28s28-12.536,28-28S47.464,4,32,4L32,4z"
             />
@@ -66,7 +68,7 @@ const Player: React.FC = ({ className }: { className?: string }) => {
               fill="#8d6c9f"
               d="M25,43.818c-0.344,0-0.688-0.09-1-0.271c-0.626-0.361-1-1.009-1-1.732v-19.63 c0-0.723,0.374-1.371,1-1.732c0.623-0.362,1.371-0.363,2,0l17,9.815v0c0.626,0.361,1,1.009,1,1.732s-0.374,1.371-1,1.732l-17,9.815 C25.687,43.728,25.343,43.818,25,43.818z M25,22.185v19.63L42,32l0.5-0.866L42,32L25,22.185z"
             />
-            <g>
+            <g >
               <path
                 fill="#8d6c9f"
                 d="M53.596,37.162c-0.063,0-0.126-0.006-0.189-0.018l-1.964-0.376 c-0.542-0.104-0.897-0.628-0.794-1.17c0.104-0.542,0.627-0.898,1.171-0.793l1.964,0.376c0.542,0.104,0.897,0.628,0.794,1.17 C54.485,36.829,54.066,37.162,53.596,37.162z"
@@ -113,7 +115,7 @@ const Player: React.FC = ({ className }: { className?: string }) => {
             className="text-2xl font-medium cursor-pointer pb-2 "
           >
             <svg
-            className=""
+              className=""
               width="50px"
               height="50px"
               viewBox="0 0 16 16"
