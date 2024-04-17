@@ -126,7 +126,7 @@ function Heroo() {
               />
             </svg>
 
-            <div className="w-fit rounded-[6rem] mx-auto overflow-hidden rounded-tl-none rounded-br-none bg-[#79a7f5] mt-10 md:mb-0 mb-10 ">
+            <div className="w-fit rounded-[6rem] mx-auto overflow-hidden rounded-tl-none rounded-br-none bg-[#7fa6e9] md:mt-10 mt-20 md:mb-0 mb-10 ">
               <svg
                 data-aos="flip-down"
                 data-aos-offset="200"
