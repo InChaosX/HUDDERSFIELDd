@@ -82,7 +82,7 @@ function Footer() {
           </button>
 
           <div className=" mt-3 md:text-left text-center">
-            Copyright &copy; 2022. All rights reserved.
+            Copyright &copy; 2024. All rights reserved.
           </div>
         </div>
       </footer>
