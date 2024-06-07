@@ -9,13 +9,17 @@ import Test from '@/components/Das/Test';
 import Heroo from '@/components/Das/Heroo';
 import Griddd from '@/components/Das/Griddd';
 import Stage from '@/components/Das/Stage';
+import Hero from '@/components/Das/Hero';
+import Section2 from '@/components/Das/Section2';
 
 
 export default async function IndexPage() {
   return (
     <div className="">
       <div className="">
-        <Heroo />
+        {/* <Heroo /> */}
+        <Section2 />
+        <Hero />
         <Gridd />
         <Bourse />
         <Video />

@@ -7,7 +7,7 @@ function V_timeline() {
   const { t } = useTranslate();
   return (
     <section
-      className="bg-[#245EC5] py-16 sm:py-16 lg:py-20 xl:py-24  -mt-24  ghy md:-mb-0 -mb-20 "
+      className="bg-[#003976] py-16 sm:py-16 lg:py-20 xl:py-24  -mt-24  ghy md:-mb-0 -mb-20 "
       data-aos="slide-up"
       data-aos-offset="200"
       data-aos-delay="50"

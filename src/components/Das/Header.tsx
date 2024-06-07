@@ -5,6 +5,7 @@ import Image from "next/image";
 import { LangSelector } from '../LangSelector'
 import { Link } from "react-scroll";
 import { T, useTranslate } from "@tolgee/react";
+import Hud from "../icon/Hud";
 
 
 function Header() {
@@ -17,18 +18,19 @@ function Header() {
 
   return (
     <section
-      className="bg-white  top-0 left-0 right-0 z-50 h-[100px] fixed"
+      className="bg-[#003976]  top-0 left-0 right-0 z-50 h-[100px] fixed  "
       id="navbar"
     >
       <div className="mx-auto max-w-screen-xl px-4 py-4 sm:px-6 sm:py-4 lg:px-8 ">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="md:text-center text-left  ">
-            <Image
+            {/* <Image
               src="/huddersfield-logo.png"
               alt="huddersfield"
               width={200}
               height={200}
-            ></Image>
+            ></Image> */}
+            <Hud/>
           </div>
 
           <div className="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
