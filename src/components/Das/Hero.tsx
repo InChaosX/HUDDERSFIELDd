@@ -137,11 +137,7 @@ function Hero() {
             </div>
 
             <div>
-              <img
-                className="w-full"
-                src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/hero-img.png"
-                alt=""
-              />
+              <img className="w-full h-full object-cover" src="hud_imghero.jpg" alt="" />
             </div>
           </div>
         </div>

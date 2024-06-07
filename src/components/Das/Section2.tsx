@@ -29,9 +29,8 @@ function Section2() {
               </div>
             </h1>
 
-            <p className="mt-5 text-base text-white sm:text-xl pt-9">
-              No more hassle taking loans and making payments. Try Postcrats
-              credit card, make your life simple.
+            <p className="mt-5 text-base text-yellow-500 sm:text-4xl pt-9">
+              A TEF gold-rated University
             </p>
 
             <a
@@ -103,7 +102,7 @@ function Section2() {
                   />
                 </svg>
                 <p className="ml-3 text-sm text-white">
-                  Over 12,000 students joined
+                  4,500 international students
                 </p>
               </div>
 
@@ -133,9 +132,7 @@ function Section2() {
                     stroke-linejoin="round"
                   />
                 </svg>
-                <p className="ml-3 text-sm text-white">
-                  No yearly charges, maximum limits
-                </p>
+                <p className="ml-3 text-sm text-white">100 nationalities</p>
               </div>
 
               <div className="flex items-center">
@@ -172,9 +169,7 @@ function Section2() {
                     stroke-linejoin="round"
                   />
                 </svg>
-                <p className="ml-3 text-sm text-white">
-                  Secured & safe online payment
-                </p>
+                <p className="ml-3 text-sm text-white">Rated 5 stars with QS</p>
               </div>
             </div>
           </div>

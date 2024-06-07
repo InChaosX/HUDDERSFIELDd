@@ -191,7 +191,7 @@ function Contact() {
 
             <div className="divide-y divide-gray-200 dark:divide-gray-800">
               <Image
-                src="/contact-img.png"
+                src="/contact-image12.png"
                 alt="hudders"
                 width={2000}
                 height={2000}

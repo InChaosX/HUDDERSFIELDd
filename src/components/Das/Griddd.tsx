@@ -9,7 +9,6 @@ function Griddd() {
     <section>
       <div className="mx-auto max-w-screen-1xl px-4 py-28 sm:px-6 lg:px-40 z-99 md:-mb-0 -mb-36">
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
-         
           <div className="relative flex items-center  shadow-xl h-[700px] md:mb-0 mb-8">
             {/* <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 bg-[#F7F809] my-7 shadow-xl "></span> */}
 
@@ -171,9 +170,7 @@ function Griddd() {
 
                       <span className="mx-2"> {t("2ts5")}</span>
                     </p>
-                  
-                    
-                    
+
                     <Link
                       to="contact"
                       spy={true}
@@ -209,7 +206,7 @@ function Griddd() {
             >
               <img
                 alt=""
-                src="/portrait-satisfied.jpg"
+                src="/hudeimage-350.jpg"
                 className="absolute inset-0 md:h-[700px] md:w-full h-[500px] object-cover"
               />
             </div>

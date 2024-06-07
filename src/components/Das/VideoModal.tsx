@@ -13,7 +13,7 @@ const VideoModal: React.FC<VideoModalProps> = ({ isOpen, onClose }) => {
         <button className="mb-4 text-right text-red-600" onClick={onClose}>
           Close
           <div className="relative pb-9/16 h-full overflow-hidden">
-            <iframe
+            {/* <iframe
               width="560"
               height="315"
               src="https://www.youtube.com/embed/c-fQ3OtGWho?si=K7p7J-EVsmCGexaw"
@@ -22,6 +22,14 @@ const VideoModal: React.FC<VideoModalProps> = ({ isOpen, onClose }) => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               // referrerpolicy="strict-origin-when-cross-origin"
               // allowfullscreen
+            ></iframe> */}
+            <iframe
+              className=" "
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/GxYfPLD1Eb4?si=zjl0AyRlWY0be8Eh&amp;controls=0"
+              title="YouTube Player player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></iframe>
           </div>
         </button>
