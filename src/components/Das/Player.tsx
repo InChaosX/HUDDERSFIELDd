@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useRef } from "react";
+import Play from "../icon/Play";
 
 const Player: React.FC = ({ className }: { className?: string }) => {
   const modalbg = useRef<HTMLDivElement>(null);
@@ -45,7 +46,16 @@ const Player: React.FC = ({ className }: { className?: string }) => {
           id="modal-switch"
           className="text-[10vw] bg-gradient-to-r from-indigo-500 via-purple-500 text-transparent bg-clip-text to-pink-500 font-bold cursor-pointer"
         >
-          <svg
+          <div className="relative h-20 w-20 rounded-full bg-gradient-to-br from-purple-600 to-blue-500 mx-auto flex items-center justify-center">
+            <div className="absolute inset-0 rounded-full bg-purple-600 opacity-70 animate-pulse"></div>
+            <div className="absolute inset-0 rounded-full bg-purple-600 opacity-70 animate-pulse delay-1000"></div>
+            <i className="absolute fas fa-bell text-white text-4xl"></i>
+            <div className="z-10">
+              <Play />
+            </div>
+          </div>
+
+          {/* <svg
             id="svg-spin"
             className=""
             xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +105,7 @@ const Player: React.FC = ({ className }: { className?: string }) => {
                 d="M36.161,54.595c-0.47,0-0.89-0.333-0.981-0.812l-0.377-1.964c-0.104-0.542,0.252-1.066,0.794-1.17 c0.54-0.105,1.066,0.251,1.171,0.793l0.377,1.964c0.104,0.542-0.252,1.066-0.794,1.17C36.287,54.589,36.224,54.595,36.161,54.595z"
               />
             </g>
-          </svg>
+          </svg> */}
         </div>
       </div>
       {/* Modal  */}

@@ -14,12 +14,63 @@ type Props = {
   params: { locale: string };
 };
 
+// export const metadata: Metadata = {
+//   title: "Huddersfields",
+//   // description: "Elite London Academy",
+//   keywords: [
+//     "education",
+//     "Huddersfield",
+//     "university",
+//     "academic excellence",
+//     "student life",
+//   ],
+
+//   description:
+//   "Enroll at Huddersfield University and start your journey towards academic excellence. Discover our programs, admissions process, and student life..",
+ 
+
+//   icons: {
+
+//     icon: "favicon.ico",
+//   },
+// };
+
 export const metadata: Metadata = {
   title: "Huddersfields",
-  description: "The official Coding Beauty home page.",
+  description:
+    "Enroll at Huddersfield University and start your journey towards academic excellence. Discover our programs, admissions process, and student life.",
+  keywords: [
+    "education",
+    "Huddersfield",
+    "university",
+    "academic excellence",
+    "student life",
+  ],
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon.ico",
   },
+  // Open Graph metadata
+  openGraph: {
+    title: "Huddersfields - university",
+    description:
+      "Enroll at Huddersfield University and start your journey towards academic excellence. Discover our programs, admissions process, and student life.",
+    type: "website",
+    url: "https://www.yourwebsite.com",
+    siteName: "Huddersfields",
+  
+  },
+  // Twitter metadata
+  twitter: {
+    card: "summary_large_image",
+    site: "@Huddersfields",
+    title: "Huddersfields - Elite London Academy",
+    description:
+      "Enroll at Huddersfield University and start your journey towards academic excellence. Discover our programs, admissions process, and student life.",
+    
+  },
+  
+  robots: "index, follow",
+  
 };
 
 export default async function LocaleLayout({
@@ -37,17 +88,26 @@ export default async function LocaleLayout({
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
         <title>Huddersfield</title>
-
-        <meta name="description" content="Your page description here" />
-        <meta name="keywords" content="keyword1, keyword2, keyword3" />
-        <meta name="author" content="Your Name" />
+        {/* "education", "Huddersfield", "university", "academic excellence",
+        "student life", */}
+        <meta
+          name="description"
+          content="Enroll at Huddersfield University and start your journey towards academic excellence. Discover our programs, admissions process, and student life."
+        />
+        <meta
+          name="keywords"
+          content="education, Huddersfield, university , academic excellence"
+        />
+        {/* <meta name="author" content="Your Name" /> */}
         <meta name="robots" content="index, follow" />
         {/* Add any other metadata tags as needed */}
         {/* Open Graph metadata */}
         <meta property="og:title" content="Huddersfield" />
-        <meta property="og:description" content="Your Open Graph Description" />
+        <meta
+          property="og:description"
+          content="Enroll at Huddersfield University and start your journey towards academic excellence. Discover our programs, admissions process, and student life."
+        />
         <meta property="og:image" content="URL to Your Open Graph Image" />
         <meta property="og:url" content="URL to Your Page" />
         {/* Additional titles */}
@@ -58,7 +118,7 @@ export default async function LocaleLayout({
         <body>
           <TolgeeNextProvider locale={locale} locales={locales}>
             <Header />
-            <div className="px-1 overflow-hidden">
+            <div className="px-1 md:px-0 overflow-hidden">
               {children}
               <Analytics />
             </div>

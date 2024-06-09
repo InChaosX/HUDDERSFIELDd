@@ -11,6 +11,9 @@ export default function NotFound() {
     <html lang="fr">
       <body>
         <Error statusCode={404} />
+        <div className='text-red-600 text-2xl'> 
+        eroor 404
+        </div>
       </body>
     </html>
   );

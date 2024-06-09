@@ -4,6 +4,7 @@ import React, { useEffect } from 'react'
 import { T, useTranslate } from "@tolgee/react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import Play from '../icon/Play';
 
 
 // useEffect(() => {
@@ -54,6 +55,20 @@ function Bourse() {
           </p>
         </div>
       </div>
+
+      {/* <div className="relative h-20 w-20 rounded-full bg-gradient-to-br from-purple-600 to-blue-500 mx-auto">
+        <i className="absolute fas fa-bell text-white text-4xl "> <Play/> </i>
+        <div className="absolute inset-0 rounded-full bg-purple-600 opacity-70 animate-pulse"></div>
+        <div className="absolute inset-0 rounded-full bg-purple-600 opacity-70 animate-pulse delay-1000"></div>
+      </div> */}
+      {/* <div className="relative h-20 w-20 rounded-full bg-gradient-to-br from-purple-600 to-blue-500 mx-auto flex items-center justify-center">
+        <div className="absolute inset-0 rounded-full bg-purple-600 opacity-70 animate-pulse"></div>
+        <div className="absolute inset-0 rounded-full bg-purple-600 opacity-70 animate-pulse delay-1000"></div>
+        <i className="absolute fas fa-bell text-white text-4xl"></i>
+        <div className="z-10">
+          <Play />
+        </div>
+      </div> */}
     </section>
   );
 }
