@@ -38,7 +38,8 @@ type Props = {
 export const metadata: Metadata = {
   title: "Huddersfields",
   description:
-    "Enroll at Huddersfield University and start your journey towards academic excellence. Discover our programs, admissions process, and student life.",
+    "Enroll at Huddersfield University and start your journey towards academic excellence... Discover our programs, admissions process, and student life...BAC. Moroccan French Other. Submit. Contact Casablanca International Study Centre. Phone: +212 684 230 230; Email: ncuk@londonacademy.ma; Website: ...",
+
   keywords: [
     "education",
     "Huddersfield",
@@ -57,7 +58,6 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://www.yourwebsite.com",
     siteName: "Huddersfields",
-  
   },
   // Twitter metadata
   twitter: {
@@ -66,11 +66,9 @@ export const metadata: Metadata = {
     title: "Huddersfields - Elite London Academy",
     description:
       "Enroll at Huddersfield University and start your journey towards academic excellence. Discover our programs, admissions process, and student life.",
-    
   },
-  
+
   robots: "index, follow",
-  
 };
 
 export default async function LocaleLayout({
