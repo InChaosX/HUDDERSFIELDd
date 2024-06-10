@@ -44,7 +44,11 @@ function Hero() {
                   </span>
                 </h1>
               </div> */}
-              <h1 className="md:text-4xl text-2xl font-bold text-black sm:text-6xl lg:text-4xl ">
+              <h1
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                className="md:text-4xl text-2xl font-bold text-black sm:text-6xl lg:text-4xl "
+              >
                 Votre rêve devient réalité… Vivez l’expérience britannique et
                 faites vos études
                 <div className="relative inline-flex">
@@ -64,6 +68,8 @@ function Hero() {
                 <a
                   href="#"
                   title=""
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
                   className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-yellow-300  hover:bg-blue-700 focus:bg-orange-600"
                   role="button"
                 >
@@ -78,6 +84,8 @@ function Hero() {
                 >
                   <svg
                     className="w-10 h-10 mr-3 "
+                    data-aos="fade-left"
+                    data-aos-duration="2000"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -98,13 +106,19 @@ function Hero() {
                       d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  Watch video
+                  <p data-aos="fade-up" data-aos-duration="2000" className="">
+                    Watch video
+                  </p>
                 </a>
                 <VideoModal isOpen={isModalOpen} onClose={handleCloseModal} />
               </div>
             </div>
 
-            <div className="w-full h-[70vh]   bg-yellow-300  ">
+            <div
+              data-aos="fade-down"
+              data-aos-duration="2000"
+              className="w-full h-[70vh]   bg-yellow-300  "
+            >
               <img
                 className="w-full h-[70vh]  object-cover  shadow-2xl shadow-gray-500  p-5 mr-6 "
                 src="hud_imghero.jpg"

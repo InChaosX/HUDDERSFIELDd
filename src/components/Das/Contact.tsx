@@ -86,7 +86,11 @@ function Contact() {
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="max-w-2xl lg:max-w-5xl mx-auto">
           <div className="text-center">
-            <h1 className="text-3xl font-bold text-black sm:text-4xl ">
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              className="text-3xl font-bold text-black sm:text-4xl "
+            >
               {t("FORMULAIRE DE PRE-INSCRIPTION")}
             </h1>
             {/* <p className="mt-1 text-gray-600 dark:text-gray-400">
@@ -96,7 +100,11 @@ function Contact() {
 
           <div className="mt-12 grid items-center lg:grid-cols-2 gap-6 lg:gap-16 ">
             {/* <!-- Card --> */}
-            <div className="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8 dark:border-gray-700 bg-slate-300">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="2000"
+              className="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8 dark:border-gray-700 bg-slate-300"
+            >
               <h2 className="mb-8 text-xl font-semibold text-black">
                 {t("Remplissez le formulaire")}
               </h2>
@@ -189,7 +197,11 @@ function Contact() {
               />
             </div>
 
-            <div className="divide-y divide-gray-200 dark:divide-gray-800">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              className="divide-y divide-gray-200 dark:divide-gray-800"
+            >
               <Image
                 src="/contact-image12.png"
                 alt="hudders"

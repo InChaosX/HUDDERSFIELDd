@@ -9,8 +9,11 @@ function Section2() {
       <section className="relative lg:min-h-[100px] pt-24 pb-10 sm:pt-32 sm:pb-16 lg:pb-24 ">
         <div className="px-4 mx-auto max-w-7xl sm:px-3 lg:px-2 relative z-20 mt-0 ">
           <div className="max-w-5xl mx-auto text-center ">
-            
-            <div className="pt-20 md:text-left space-y-4 text-center  ">
+            <div
+              className="pt-20 md:text-left space-y-4 text-center  "
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <h1 className="md:text-4xl text-2xl  font-bold  mb-3 backdrop-blur-xl">
                 <span className=" font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-yellow-300">
                   {" "}
@@ -33,10 +36,11 @@ function Section2() {
               </h1>
             </div>
 
-      
             <a
               href="#"
               title=""
+              data-aos="fade-up"
+              data-aos-duration="3000"
               className="inline-flex items-center px-6 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#003976]  rounded-lg sm:mt-16 hover:bg-blue-700 focus:bg-blue-700"
               role="button"
             >
@@ -57,7 +61,11 @@ function Section2() {
               </svg>
             </a>
 
-            <div className="grid grid-cols-1 px-20 mt-12 text-left gap-x-12 gap-y-8 sm:grid-cols-3 sm:px-0">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              className="grid grid-cols-1 px-20 mt-12 text-left gap-x-12 gap-y-8 sm:grid-cols-3 sm:px-0"
+            >
               <div className="flex items-center">
                 <svg
                   className="flex-shrink-0"
@@ -115,11 +123,8 @@ function Section2() {
                   viewBox="0 0 16 16"
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
-                 
                   className="si-glyph si-glyph-global"
                 >
-                
-
                   <defs></defs>
                   <g
                     stroke="none"
@@ -151,16 +156,13 @@ function Section2() {
               </div>
 
               <div className="flex items-center">
-             
                 <svg
                   width="20px"
                   height="24px"
                   viewBox="0 0 128 128"
                   xmlns="http://www.w3.org/2000/svg"
-                 
                   aria-hidden="true"
                   role="img"
-                  
                   preserveAspectRatio="xMidYMid meet"
                 >
                   <path
