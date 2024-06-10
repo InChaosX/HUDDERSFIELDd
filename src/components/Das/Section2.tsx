@@ -8,32 +8,52 @@ function Section2() {
     <div className="bg-transparent  hero ">
       <section className="relative lg:min-h-[100px] pt-24 pb-10 sm:pt-32 sm:pb-16 lg:pb-24 ">
         <div className="px-4 mx-auto max-w-7xl sm:px-3 lg:px-2 relative z-20 mt-0 ">
-          <div className="max-w-5xl mx-auto text-center ">
+          <div className="max-w-6xl mx-auto text-center ">
             <div
               className="pt-20 md:text-left space-y-4 text-center  "
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <h1 className="md:text-4xl text-2xl  font-bold  mb-3 backdrop-blur-xl">
+              <h1 className="md:text-3xl text-2xl  font-bold  mb-3 backdrop-blur-xl">
                 <span className=" font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-yellow-300">
                   {" "}
                   <span className="!text-white ">1 -</span>{" "}
                   {t("-Démarrez vos études universitaires à Casablanca")}
                 </span>
               </h1>
-              <h1 className="md:text-4xl text-2xl  font-bold  mb-3 backdrop-blur-xl">
+              <h1 className="md:text-3xl text-2xl  font-bold  mb-3 backdrop-blur-xl">
                 <span className=" font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-yellow-300 ">
                   {" "}
                   <span className="!text-white ">2 -</span>{" "}
                   {t("-Obtenez un Bachelor en Business en Angleterre")}
                 </span>
               </h1>
-              <h1 className="md:text-4xl text-2xl  font-bold  mb-3 backdrop-blur-xl">
+              <h1 className="md:text-3xl text-2xl  font-bold  mb-3 backdrop-blur-xl">
                 <span className=" font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-yellow-300">
                   <span className="!text-white ">3 -</span>{" "}
                   {t("-Décrochez votre 1er JOB en Angleterre")}
                 </span>
               </h1>
+            </div>
+
+            {/* <div className=" text-2xl text-yellow-300 font-bold pt-10">
+              BOURSE DE 50 000 DH
+            </div> */}
+            {/* <div className="text-center pt-5">
+              <div className="relative inline-flex">
+                <span className="absolute inset-x-0 bottom-0 border-b-[20px] border-yellow-300 "></span>
+                <h1 className="relative text-4xl font-bold text-white sm:text-6xl lg:text-4xl">
+                  BOURSE DE 50 000 DH
+                </h1>
+              </div>
+            </div> */}
+            <div
+              className=" ml-[125vh] -mt-36 absolute flex items-center justify-center 
+               h-40 w-40 rounded-full bg-green-600"
+            >
+              <span className="text-white font-bold text-2xl transform rotate-12">
+                BOURSE DE 50 000 DH
+              </span>
             </div>
 
             <a

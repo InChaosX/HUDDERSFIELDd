@@ -49,12 +49,11 @@ function Hero() {
                 data-aos-duration="2000"
                 className="md:text-4xl text-2xl font-bold text-black sm:text-6xl lg:text-4xl "
               >
-                Votre rêve devient réalité… Vivez l’expérience britannique et
-                faites vos études
+                {t("dream")} <br/>
                 <div className="relative inline-flex">
                   <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-yellow-300 "></span>
                   <h1 className="relative text-4xl font-bold text-black sm:text-6xl lg:text-6xl">
-                    à Huddersfield !
+                  {t("dream2")}
                   </h1>
                 </div>
               </h1>

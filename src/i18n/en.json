@@ -14,15 +14,15 @@
   "Inscrivez-vous maintenant" : "Enroll Now",
  
 
-    "-Démarrez vos études universitaires à Casablanca": "Kickstart your university studies in Casablanca.",
-    "-Obtenez un Bachelor en Business en Angleterre": "Earn a Business Bachelor's degree in England",
-    "-Décrochez votre 1er JOB en Angleterre": "Land your first job in England",
+    "-Démarrez vos études universitaires à Casablanca": "Start your university studies in Casablanca.",
+    "-Obtenez un Bachelor en Business en Angleterre": "Graduate with a bachelor’s degree in business in England.",
+    "-Décrochez votre 1er JOB en Angleterre": "Get your first job in England.",
 
 
   "ts" :"YOUR BEST PATHWAY TO A UK DEGREE",
 
  "ts1" : "BA (Hons) Business Administration and Management",
- "ts2"     : "BA (Hons) Global Marketing",
+ "ts2" : "BA (Hons) Global Marketing",
  "ts3" : "BA (Hons) Hospitality Business Management",
  "ts4" : "BA (Hons) Human Resource Management",
  "ts5" : "BA (Hons) International Business",
@@ -98,7 +98,11 @@
       "Français": "Bilingual system",
       "Autres"  :"Other",
 
-      "topHerotitle":"START IN CASABLANCA and get to the FINAL YEAR at the University of Huddersfield IN THE UK !"
+      "topHerotitle":"START IN CASABLANCA and get to the FINAL YEAR at the University of Huddersfield IN THE UK !",
+
+
+      "dream": "Your dream comes true Live the British experience and study",
+      "dream2":"in Huddersfield"
       
       
 

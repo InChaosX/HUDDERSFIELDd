@@ -178,6 +178,20 @@ function Contact() {
                   </div>
                 </div>
 
+                <div>
+                  <p className="font-semibold text-gray-500">
+                    {t("Autre")}
+                    <span className="text-black text-sm"> (optional)</span>
+                  </p>
+                  <label className="sr-only">Phone Number</label>
+                  <input
+                    name="autre"
+                    type="text"
+                    placeholder="Quel Autre BAC Avez Vous ?"
+                    className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none bg-white dark:border-gray-700 text-black font-semibold dark:focus:ring-gray-600"
+                  />
+                </div>
+
                 <div className="mt-4 grid">
                   <button
                     type="submit"

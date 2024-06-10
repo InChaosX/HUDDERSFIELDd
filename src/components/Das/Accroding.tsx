@@ -6,7 +6,7 @@ function Accroding() {
    const { t } = useTranslate();
   return (
     <section
-      className="md:px-40 px-10 bg-[#245EC5] py-32 str overflow-hidden "
+      className="md:px-40 px-10 bg-[#003976] py-32 str overflow-hidden "
       data-aos="slide-left"
       data-aos-offset="200"
       data-aos-delay="50"
@@ -68,7 +68,6 @@ function Accroding() {
               Fondation Internationale. */}
               {t("acc2")}
             </h2>
-
           </summary>
         </details>
 

@@ -10,18 +10,21 @@ const VideoModal: React.FC<VideoModalProps> = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-[#003976] p-4 rounded-lg shadow-lg">
+      <div className="bg-[#003976] p-4 rounded-lg shadow-lg ">
         <button className="mb-4 text-right text-red-600" onClick={onClose}>
           {/* Close */}
           <Close />
           <div className="relative pb-9/16 h-full overflow-hidden">
             <iframe
-              className=" "
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/GxYfPLD1Eb4?si=zjl0AyRlWY0be8Eh&amp;controls=0"
-              title="YouTube Player player"
+              className=" md:w-[700px] w-[350px] md:h-[315px] h-[400px]"
+              // width="700"
+              // height="315"
+              src="https://www.youtube.com/embed/SktFvuALYZs?si=vW9JA7FtWvv2u0fs"
+              title="YouTube video player"
+              // frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              // referrerpolicy="strict-origin-when-cross-origin"
+              // allowfullscreen
             ></iframe>
           </div>
           <div>
