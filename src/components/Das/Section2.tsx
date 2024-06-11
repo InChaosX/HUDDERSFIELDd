@@ -49,7 +49,7 @@ function Section2() {
             </div> */}
             <div
               className=" ml-[135vh] -mt-[13rem] absolute flex items-center justify-center 
-               h-40 w-40 rounded-full bg-green-600"
+               h-40 w-40 rounded-full bg-red-600"
             >
               <span className="text-white font-bold text-2xl transform rotate-12">
                 BOURSE DE 50 000 DH

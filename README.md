@@ -21,3 +21,6 @@ NEXT_PUBLIC_TOLGEE_API_KEY=<your project API key>
 ```
 
 6. Re-run `npm run dev`
+
+
+ns3.geniousdns.com
