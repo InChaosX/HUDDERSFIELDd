@@ -8,7 +8,8 @@
     "build": "next build",
     "build:e2e": "NEXT_BUILD_DIR=dist-e2e next build",
     "start": "next start",
-    "clean": "rm -rf .next dist-e2e"
+    "clean": "rm -rf .next dist-e2e",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
@@ -19,6 +20,8 @@
     "aos": "^3.0.0-beta.6",
     "next": "14.1.4",
     "next-intl": "^3.2.3",
+    "next-optimized-images": "^2.0.2",
+    "next-seo": "^6.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scroll": "^1.9.0",

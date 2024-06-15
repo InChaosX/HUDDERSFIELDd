@@ -21,7 +21,7 @@ function Test() {
           {t("test0")}
         </h1>
         <p
-          className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 md:text-white backdrop-blur-lg text-yellow-300"
+          className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 md:text-white backdrop-blur-lg text-[#003976]"
           data-aos="slide-right"
           data-aos-offset="200"
           data-aos-delay="50"
@@ -52,7 +52,7 @@ function Test() {
             duration={800}
             // ignoreCancelEvents={true}
           >
-            <button className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center bg-blue-gray-400 text-black rounded-lg border border-gray-300 bg-[#F7F809] focus:ring-4 focus:ring-gray-100  dark:focus:ring-gray-800">
+            <button className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center bg-blue-gray-400 text-black rounded-lg border border-gray-300 bg-[#003976] focus:ring-4 focus:ring-gray-100  dark:focus:ring-gray-800">
               {t("Inscrivez-vous maintenant")}
               <svg
                 fill="#000000"

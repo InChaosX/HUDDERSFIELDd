@@ -1,11 +1,11 @@
-import { notFound } from 'next/navigation';
-import { ReactNode } from 'react';
-import { TolgeeNextProvider } from '@/tolgee/client';
-import { ALL_LOCALES, getStaticData } from '@/tolgee/shared';
-import Head from 'next/head'; // Added import for Head component
-import Header from '@/components/Das/Header';
-import Footer from '@/components/Das/Footer';
-import ScrollToTopButton from '@/components/Das/ScrollToTopButton';
+import { notFound } from "next/navigation";
+import { ReactNode } from "react";
+import { TolgeeNextProvider } from "@/tolgee/client";
+import { ALL_LOCALES, DEFAULT_LOCALE, getStaticData } from "@/tolgee/shared";
+import Head from "next/head"; // Added import for Head component
+import Header from "@/components/Das/Header";
+import Footer from "@/components/Das/Footer";
+import ScrollToTopButton from "@/components/Das/ScrollToTopButton";
 import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 
@@ -27,7 +27,6 @@ type Props = {
 
 //   description:
 //   "Enroll at Huddersfield University and start your journey towards academic excellence. Discover our programs, admissions process, and student life..",
- 
 
 //   icons: {
 
@@ -36,7 +35,7 @@ type Props = {
 // };
 
 export const metadata: Metadata = {
-  title: "Huddersfields",
+  title: "Huddersfield",
   description:
     "Enroll at Huddersfield University and start your journey towards academic excellence... Discover our programs, admissions process, and student life...BAC. Moroccan French Other. Submit. Contact Casablanca International Study Centre. Phone: +212 684 230 230; Email: ncuk@londonacademy.ma; Website: ...",
 
@@ -52,18 +51,18 @@ export const metadata: Metadata = {
   },
   // Open Graph metadata
   openGraph: {
-    title: "Huddersfields - university",
+    title: "Huddersfield ",
     description:
       "Enroll at Huddersfield University and start your journey towards academic excellence. Discover our programs, admissions process, and student life.",
     type: "website",
-    url: "https://www.yourwebsite.com",
-    siteName: "Huddersfields",
+    url: "https://www.huddersfield.ma/",
+    siteName: "https://www.huddersfield.ma/sitemap.xml",
   },
   // Twitter metadata
   twitter: {
     card: "summary_large_image",
-    site: "@Huddersfields",
-    title: "Huddersfields - Elite London Academy",
+    site: "@Huddersfield",
+    title: "Huddersfield - Elite London Academy",
     description:
       "Enroll at Huddersfield University and start your journey towards academic excellence. Discover our programs, admissions process, and student life.",
   },
@@ -79,7 +78,7 @@ export default async function LocaleLayout({
     notFound();
   }
 
-  const locales = await getStaticData(['fr', locale]);
+  const locales = await getStaticData(["fr", locale]);
 
   return (
     <>
@@ -97,6 +96,7 @@ export default async function LocaleLayout({
           name="keywords"
           content="education, Huddersfield, university , academic excellence"
         />
+        <link rel="canonical" href="https://www.huddersfield.ma/"></link>
         {/* <meta name="author" content="Your Name" /> */}
         <meta name="robots" content="index, follow" />
         {/* Add any other metadata tags as needed */}
@@ -106,11 +106,12 @@ export default async function LocaleLayout({
           property="og:description"
           content="Enroll at Huddersfield University and start your journey towards academic excellence. Discover our programs, admissions process, and student life."
         />
-        <meta property="og:image" content="URL to Your Open Graph Image" />
-        <meta property="og:url" content="URL to Your Page" />
+        <meta property="og:locale" content={DEFAULT_LOCALE} />
+        <meta property="og:image" content="https://www.huddersfield.ma/" />
+        <meta property="og:url" content="https://www.huddersfield.ma/" />
         {/* Additional titles */}
         <meta name="title" content="Huddersfield" />
-        <meta name="twitter:title" content="Twitter Title" />
+        <meta name="twitter:title" content="Huddersfield" />
       </Head>
       <html lang={locale}>
         <body>
@@ -120,7 +121,6 @@ export default async function LocaleLayout({
               {children}
               <Analytics />
             </div>
-
             <ScrollToTopButton />
             <Footer />
           </TolgeeNextProvider>

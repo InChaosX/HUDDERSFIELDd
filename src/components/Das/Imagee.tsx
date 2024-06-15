@@ -33,11 +33,11 @@ function Imagee() {
         {/* the icon  */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center">
           <div
-            className="relative h-20 w-20 rounded-full bg-gradient-to-br from-blue-600 to-yellow-300 mx-auto flex items-center justify-center cursor-pointer"
+            className="relative h-20 w-20 rounded-full bg-[#245EC5] mx-auto flex items-center justify-center cursor-pointer"
             onClick={handleOpenModal}
           >
-            <div className="absolute inset-0 rounded-full bg-yellow-600 opacity-70 animate-pulse"></div>
-            <div className="absolute inset-0 rounded-full bg-blue-600 opacity-70 animate-pulse delay-1000"></div>
+            <div className="absolute inset-0 rounded-full bg-[#245EC5] opacity-70 animate-pulse"></div>
+            <div className="absolute inset-0 rounded-full bg-[#245EC5] opacity-70 animate-pulse delay-1000"></div>
             <i className="absolute fas fa-bell text-white text-4xl"></i>
             <div className="z-10">
               <Play />

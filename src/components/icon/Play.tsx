@@ -4,7 +4,7 @@ function Play() {
   return (
     <svg
     className='ml-2'
-      fill="#FDE047"
+      fill="#FFF"
       width="30px"
       height="30px"
       viewBox="0 0 24 24"

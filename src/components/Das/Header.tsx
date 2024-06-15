@@ -2,19 +2,13 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
-import { LangSelector } from '../LangSelector'
+import { LangSelector } from "../LangSelector";
 import { Link } from "react-scroll";
 import { T, useTranslate } from "@tolgee/react";
 import Hud from "../icon/Hud";
 
-
 function Header() {
-  
   const { t } = useTranslate();
-
-
-
-
 
   return (
     <section
@@ -24,17 +18,11 @@ function Header() {
       <div className="mx-auto max-w-screen-xl px-4 py-4 sm:px-6 sm:py-4 lg:px-8 ">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="md:text-center text-left  ">
-            {/* <Image
-              src="/huddersfield-logo.png"
-              alt="huddersfield"
-              width={200}
-              height={200}
-            ></Image> */}
-            <Hud/>
+            <Hud />
           </div>
 
           <div className="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
-            <div>
+            <div data-aos="fade-down" data-aos-duration="3000">
               <Link
                 to="contact"
                 spy={true}
@@ -44,9 +32,11 @@ function Header() {
                 // ignoreCancelEvents={true}
               >
                 <button
-                  className="block rounded-lg bg-[#245EC5] border-4 border-white bg-gradient-to-r from-blue-500 to-yellow-300 w-full px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring btn relative"
+                  className="block rounded-lg bg-white border-4 border-blue-400 font-bold  w-full px-5 py-3 text-sm  text-[#245EC5]  transition hover:bg-gray-300 focus:ring btn relative"
                   id="scroll-button"
                   type="button"
+                  data-aos="fade-down"
+                  data-aos-duration="3000"
                 >
                   {t("Inscrivez-vous maintenant")}
                 </button>

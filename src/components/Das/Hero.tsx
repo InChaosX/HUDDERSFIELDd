@@ -3,20 +3,20 @@ import React from "react";
 import { T, useTranslate } from "@tolgee/react";
 import { useState } from "react";
 import VideoModal from "./VideoModal";
+import { Link } from "react-scroll";
 
 function Hero() {
   const { t } = useTranslate();
 
-   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-   const handleOpenModal = () => {
-     setIsModalOpen(true);
-   };
+  const handleOpenModal = () => {
+    setIsModalOpen(true);
+  };
 
-   const handleCloseModal = () => {
-     setIsModalOpen(false);
-   };
-
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
 
   return (
     <div className="bg-gradient-to-b from-[#cad7e4]  to-[#659bd5] -mt-10 ">
@@ -24,57 +24,48 @@ function Hero() {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
             <div>
-              {/* <div className="pt-10">
-                <h1 className="md:text-4xl text-sm font-bold sm:text-3xl mb-3 backdrop-blur-xl">
-                  <span className="text-white">
-                    {" "}
-                    {t("-Démarrez vos études universitaires à Casablanca")}
-                  </span>
-                </h1>
-                <h1 className="md:text-4xl text-sm font-bold sm:text-3xl mb-3 backdrop-blur-xl">
-                  <span className="text-white ">
-                    {" "}
-                    {t("-Obtenez un Bachelor en Business en Angleterre")}
-                  </span>
-                </h1>
-                <h1 className="md:text-4xl text-sm font-bold sm:text-3xl mb-3 backdrop-blur-xl">
-                  <span className="text-white">
-                    {" "}
-                    {t("-Décrochez votre 1er JOB en Angleterre")}
-                  </span>
-                </h1>
-              </div> */}
               <h1
                 data-aos="fade-up"
                 data-aos-duration="2000"
                 className="md:text-4xl text-2xl font-bold text-black sm:text-6xl lg:text-4xl "
               >
-                {t("dream")} <br/>
+                {t("dream")} <br />
                 <div className="relative inline-flex">
-                  <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-yellow-300 "></span>
-                  <h1 className="relative text-4xl font-bold text-black sm:text-6xl lg:text-6xl">
-                  {t("dream2")}
+                  <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-[#003976] "></span>
+                  <h1 className="relative text-4xl font-bold text-white sm:text-6xl lg:text-6xl">
+                    {t("dream2")}
                   </h1>
                 </div>
               </h1>
 
-              <p className="mt-8 text-base text-black sm:text-2xl ">
-                Apply to the NCUK International Foundation Year program at
-                LONDON ACADEMY CASABLANCA
+              <p
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                className="mt-8 text-base text-black sm:text-2xl "
+              >
+                {/* Apply to the NCUK International Foundation Year program at
+                LONDON ACADEMY CASABLANCA */}
+                {t("tb")}
               </p>
 
               <div className="mt-10 sm:flex sm:items-center sm:space-x-8">
-                <a
-                  href="#"
-                  title=""
-                  data-aos="fade-right"
-                  data-aos-duration="2000"
-                  className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-yellow-300  hover:bg-blue-700 focus:bg-orange-600"
-                  role="button"
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={800}
+                  // ignoreCancelEvents={true}
                 >
-                  {" "}
-                  Start exploring{" "}
-                </a>
+                  <button
+                    data-aos="fade-right"
+                    data-aos-duration="2000"
+                    className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-[#003976] rounded-lg hover:bg-[#003976] hover:text-white transition-all duration-200 bg-white"
+                    role="button"
+                  >
+                    {t("Inscrivez-vous maintenant")}
+                  </button>
+                </Link>
                 <a
                   // href="#"
                   title=""
@@ -106,7 +97,8 @@ function Hero() {
                     />
                   </svg>
                   <p data-aos="fade-up" data-aos-duration="2000" className="">
-                    Watch video
+                    {/* Watch video */}
+                    {t("Regarder la vidéo")}
                   </p>
                 </a>
                 <VideoModal isOpen={isModalOpen} onClose={handleCloseModal} />
@@ -116,7 +108,7 @@ function Hero() {
             <div
               data-aos="fade-down"
               data-aos-duration="2000"
-              className="w-full h-[70vh]   bg-yellow-300  "
+              className="w-full h-[70vh] bg-white  "
             >
               <img
                 className="w-full h-[70vh]  object-cover  shadow-2xl shadow-gray-500  p-5 mr-6 "

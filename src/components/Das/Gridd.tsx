@@ -6,7 +6,7 @@ import { T, useTranslate } from "@tolgee/react";
 function Gridd() {
    const { t } = useTranslate();
   return (
-    <section>
+    <section className=''>
       <div className="mx-auto max-w-screen-1xl px-4 py-28 sm:px-6 lg:px-40 z-99 md:-mb-0 -mb-36">
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
           <div className="relative z-10 bg-white mb-56 md:mb-0">

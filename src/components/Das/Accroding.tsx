@@ -45,7 +45,7 @@ function Accroding() {
       </header>
       <div className="space-y-4">
         <details
-          className="group border-s-4 border-[#F7F809]  bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+          className="group border-s-4 border-[#7178d8]  bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
           open
           data-aos="slide-left"
           data-aos-offset="200"
@@ -56,12 +56,7 @@ function Accroding() {
         >
           <summary
             className="flex cursor-pointer items-center justify-center gap-1.5"
-            // data-aos="slide-up"
-            // data-aos-offset="200"
-            // data-aos-delay="50"
-            // data-aos-duration="800"
-            // data-aos-easing="ease-in-out"
-            // data-aos-anchor-placement="center"
+            // 
           >
             <h2 className="md:text-lg tex-md font-bold text-gray-900">
               {/* BAC marocain, IELTS 5.0 ou équivalent = Accès à l'Année de
@@ -72,7 +67,7 @@ function Accroding() {
         </details>
 
         <details
-          className="group border-s-4 border-[#F7F809]  bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+          className="group border-s-4 border-[#7178d8]  bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
           data-aos="slide-right"
           data-aos-offset="200"
           data-aos-delay="50"
@@ -98,7 +93,7 @@ function Accroding() {
         </details>
 
         <details
-          className="group border-s-4 border-[#F7F809]  bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+          className="group border-s-4 border-[#7178d8] bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
           data-aos="slide-left"
           data-aos-offset="200"
           data-aos-delay="50"
@@ -125,7 +120,7 @@ function Accroding() {
         </details>
 
         <details
-          className="group border-s-4 border-[#F7F809]  bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+          className="group border-s-4 border-[#7178d8]  bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
           data-aos="slide-right"
           data-aos-offset="200"
           data-aos-delay="50"
@@ -135,11 +130,7 @@ function Accroding() {
         >
           <summary
             className="flex cursor-pointer items-center justify-center gap-1.5"
-            // data-aos="slide-right"
-            // data-aos-offset="200"
-            // data-aos-delay="50"
-            // data-aos-duration="800"
-            // data-aos-easing="ease-in-out"
+            // da
             data-aos-anchor-placement="center"
           >
             <h2 className="md:text-lg tex-md  font-bold text-gray-900">
