@@ -21,7 +21,7 @@ function Test() {
           {t("test0")}
         </h1>
         <p
-          className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 md:text-white backdrop-blur-lg text-[#003976]"
+          className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-white backdrop-blur-lg "
           data-aos="slide-right"
           data-aos-offset="200"
           data-aos-delay="50"
