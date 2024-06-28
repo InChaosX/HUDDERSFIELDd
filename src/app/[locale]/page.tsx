@@ -42,7 +42,7 @@ export default async function IndexPage() {
    />;
   return (
    
-      <div className="">
+      <div className="overflow-hidden">
         {/* <Heroo /> */}
         <Section2 />
         <Hero />

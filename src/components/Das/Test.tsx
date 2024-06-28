@@ -52,10 +52,10 @@ function Test() {
             duration={800}
             // ignoreCancelEvents={true}
           >
-            <button className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center bg-blue-gray-400 text-black rounded-lg border border-gray-300 bg-[#003976] focus:ring-4 focus:ring-gray-100  dark:focus:ring-gray-800">
+            <button className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center bg-blue-gray-400 text-white rounded-lg border border-gray-300 bg-[#003976] focus:ring-4 focus:ring-gray-100  dark:focus:ring-gray-800">
               {t("Inscrivez-vous maintenant")}
               <svg
-                fill="#000000"
+                fill="#FFFFFF"
                 //   height="800px"
                 //   width="800px"
                 className="ml-3 h-5 w-5"

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { T, useTranslate } from "@tolgee/react";
+import CheckMarkCircleIcon from "../icon/CheckMarkCircleIcon";
 
 function Section2() {
   const { t } = useTranslate();
@@ -10,36 +11,42 @@ function Section2() {
         <div className="px-4 mx-auto max-w-7xl sm:px-3 lg:px-2 relative z-20 mt-0 ">
           <div className="max-w-6xl mx-auto text-center ">
             <div
-              className="pt-20 md:text-left space-y-4 text-center md:mt-24 mt-10 "
+              className="md:pt-20 pt-10 text-left space-y-4  md:mt-24 mt-10 "
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <h1 className="md:text-3xl text-1xl  font-bold  mb-3 backdrop-blur-xl">
-                <span className=" font-extrabold text-white">
-                  {" "}
-                  <span className="!text-[#245EC5]  ">1 -</span>{" "}
+              <div className=" flex md:text-3xl text-1xl  font-bold  mb-3 backdrop-blur-xl md:gap-3 gap-1">
+                <p>
+                  <CheckMarkCircleIcon />
+                </p>
+                <h1 className="text-white md:text-4xl text-md">
                   {t("-Démarrez vos études universitaires à Casablanca")}
-                </span>
-              </h1>
-              <h1 className="md:text-3xl text-1xl  font-bold  mb-3 backdrop-blur-xl">
-                <span className=" font-extrabold text-white ">
-                  {" "}
-                  <span className="!text-[#245EC5]  ">2 -</span>{" "}
+                </h1>
+              </div>
+
+              <div className=" flex md:text-3xl text-1xl  font-bold  mb-3 backdrop-blur-xl gap-3">
+                <p>
+                  <CheckMarkCircleIcon />
+                </p>
+                <h1 className="text-white md:text-4xl text-md">
                   {t("-Obtenez un Bachelor en Business en Angleterre")}
-                </span>
-              </h1>
-              <h1 className="md:text-3xl text-1xl  font-bold  mb-3 backdrop-blur-xl">
-                <span className=" font-extrabold text-white">
-                  <span className="!text-[#245EC5]  ">3 -</span>{" "}
+                </h1>
+              </div>
+
+              <div className=" flex md:text-3xl text-1xl  font-bold  mb-3 backdrop-blur-xl gap-3">
+                <p>
+                  <CheckMarkCircleIcon />
+                </p>
+                <h1 className="text-white md:text-4xl text-md">
                   {t("-Décrochez votre 1er JOB en Angleterre")}
-                </span>
-              </h1>
+                </h1>
+              </div>
             </div>
 
             <div
               data-aos="fade-right"
               data-aos-duration="3000"
-              className="  md:ml-[135vh] md:-mt-[13rem] ml-1 mt-20 absolute flex items-center justify-center 
+              className="  md:ml-[120vh] md:-mt-[4rem] ml-1 mt-20 absolute flex items-center justify-center 
                md:h-40 md:w-40 h-20 w-20 rounded-full bg-red-600"
             >
               <span className="text-white font-bold md:text-2xl text-sm transform rotate-12">
@@ -80,8 +87,8 @@ function Section2() {
               <div className="flex items-center">
                 <svg
                   className="flex-shrink-0"
-                  width="31"
-                  height="25"
+                  width="50"
+                  height="50"
                   viewBox="0 0 31 25"
                   fill="none"
                   stroke="#FDE047"
@@ -122,15 +129,15 @@ function Section2() {
                     stroke-linejoin="round"
                   />
                 </svg>
-                <p className="ml-3 text-sm text-white">
+                <p className="ml-3 text-1xl text-white">
                   4,500 international students
                 </p>
               </div>
 
               <div className="flex items-center">
                 <svg
-                  width="20px"
-                  height="24px"
+                  width="50px"
+                  height="50px"
                   viewBox="0 0 16 16"
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
@@ -163,13 +170,13 @@ function Section2() {
                     </g>
                   </g>
                 </svg>
-                <p className="ml-3 text-sm text-white">100 nationalities</p>
+                <p className="ml-3 text-1xl text-white">100 nationalities</p>
               </div>
 
               <div className="flex items-center">
                 <svg
-                  width="20px"
-                  height="24px"
+                  width="50px"
+                  height="50px"
                   viewBox="0 0 128 128"
                   xmlns="http://www.w3.org/2000/svg"
                   aria-hidden="true"
@@ -189,7 +196,9 @@ function Section2() {
                     fill="#f4b400"
                   ></path>
                 </svg>
-                <p className="ml-3 text-sm text-white">Rated 5 stars with QS</p>
+                <p className="ml-3 text-1xl text-white">
+                  Rated 5 stars with QS
+                </p>
               </div>
             </div>
           </div>

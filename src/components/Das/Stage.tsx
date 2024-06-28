@@ -165,7 +165,7 @@ function Stage() {
             data-aos-anchor-placement="center"
           >
             <div className="flex items-center justify-between space-x-2 mb-1">
-              <div className="font-bold text-slate-900">
+              <div className="font-bold text-slate-500">
                 {/* Stage 3 */}
                 {t("timec4")}
               </div>
@@ -182,7 +182,7 @@ function Stage() {
           </div>
         </div>
 
-        <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+        <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
           <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-[#003976] text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
             <svg
               fill="#fff"
@@ -205,9 +205,9 @@ function Stage() {
             data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-anchor-placement="center"
-          >
+           >
             <div className="flex items-center justify-between space-x-2 mb-1">
-              <div className="font-bold text-slate-900">
+              <div className=" text-slate-500">
                 {/* DIPLÔMÉ */}
                 {t("timec5")}
               </div>
@@ -219,6 +219,7 @@ function Stage() {
               <img className="h-auto max-w-44" src="/huddersfield-logo.png" />
             </div>
           </div>
+          
         </div>
       </div>
     </section>
